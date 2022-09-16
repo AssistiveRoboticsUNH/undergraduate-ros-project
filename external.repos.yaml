@@ -1,0 +1,6 @@
+repositories:
+  # The following shows the formatting for adding an external source package. Uncommenting will download it.
+  #external/Yumi:
+  #  type: git
+  #  url: https://github.com/pac48/Yumi.git
+  #  version: ros2
