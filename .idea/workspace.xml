@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d609d7c8-d2c8-42f5-bb8c-ee6bedcbfff9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/build/lib/py_pubsub/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/colcon_build.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/colcon_command_prefix_setup_py.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/colcon_command_prefix_setup_py.sh.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/install.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/py_pubsub.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/py_pubsub.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/py_pubsub.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/py_pubsub.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/py_pubsub.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/py_pubsub/py_pubsub.egg-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/ament_index/resource_index/packages/py_pubsub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/colcon-core/packages/py_pubsub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/package.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/package.dsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/package.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/package.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/py_pubsub/share/py_pubsub/package.zsh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FMgSYRlhSKpyZl97VbMfNxs6lK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/carl/nao_bot"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d609d7c8-d2c8-42f5-bb8c-ee6bedcbfff9" name="Changes" comment="" />
+      <created>1664307368353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664307368353</updated>
+      <workItem from="1664311093678" duration="772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
