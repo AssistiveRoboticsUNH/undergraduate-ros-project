@@ -1,0 +1,1848 @@
+[0.011s] Invoking command in '/home/carl/nao_bot/build/naoqi_libqi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/naoqi_libqi -- -j12 -l12
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target qi[0m
+[0.644s] [  1%] [32mBuilding CXX object CMakeFiles/qi.dir/src/application.cpp.o[0m
+[0.646s] [  2%] [32mBuilding CXX object CMakeFiles/qi.dir/src/log.cpp.o[0m
+[0.648s] [  3%] [32mBuilding CXX object CMakeFiles/qi.dir/src/version.cpp.o[0m
+[0.649s] [  4%] [32mBuilding CXX object CMakeFiles/qi.dir/src/iocolor.cpp.o[0m
+[0.651s] [  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/strand.cpp.o[0m
+[0.654s] [  7%] [32mBuilding CXX object CMakeFiles/qi.dir/src/ptruid.cpp.o[0m
+[0.656s] [  8%] [32mBuilding CXX object CMakeFiles/qi.dir/src/os_posix.cpp.o[0m
+[0.657s] [  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/os_debugger_posix.cpp.o[0m
+[0.661s] [ 10%] [32mBuilding CXX object CMakeFiles/qi.dir/src/os_launch_posix.cpp.o[0m
+[0.663s] [ 11%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/binarycodec.cpp.o[0m
+[0.667s] [ 13%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/dynamicobject.cpp.o[0m
+[0.670s] [ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/dynamicobjectbuilder.cpp.o[0m
+[3.598s] [ 15%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/anyfunction.cpp.o[0m
+[3.627s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.627s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[3.627s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.628s]    70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+[3.628s]       |          [01;35m[K~~~~~~~~~^~~~[m[K
+[3.628s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.628s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.628s] [01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.628s]    49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+[3.628s]       |                           [01;36m[K^~~~~~~~~[m[K
+[3.628s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.629s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In lambda function:
+[3.629s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.629s]    79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+[3.629s]       |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.629s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.629s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.629s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.629s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.629s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.629s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.630s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[3.630s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.630s]    87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+[3.630s]       |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.630s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.630s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.630s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.630s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.630s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.817s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.817s] /home/carl/nao_bot/libqi/ka/sha1.hpp: In instantiation of ‘[01m[Kka::sha1_digest_t ka::sha1(I, I) [with I = const unsigned char*; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’:
+[3.818s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:109:16:[m[K   required from ‘[01m[Kka::sha1_digest_t ka::sha1(const L&) [with L = std::array<unsigned char, 40>; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’
+[3.818s] [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:51:25:[m[K   required from here
+[3.818s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.818s]    70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+[3.818s]       |          [01;35m[K~~~~~~~~~^~~~[m[K
+[3.819s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.819s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.819s] [01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.819s]    49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+[3.819s]       |                           [01;36m[K^~~~~~~~~[m[K
+[3.819s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.819s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.820s]    70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+[3.820s]       |          [01;35m[K~~~~~~~~~^~~~[m[K
+[3.820s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.820s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.820s] [01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.820s]    49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+[3.821s]       |                           [01;36m[K^~~~~~~~~[m[K
+[3.821s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.821s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.821s]    70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+[3.821s]       |          [01;35m[K~~~~~~~~~^~~~[m[K
+[3.821s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.821s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.822s] [01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.822s]    49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+[3.822s]       |                           [01;36m[K^~~~~~~~~[m[K
+[3.822s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.822s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.822s]    79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+[3.822s]       |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.822s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.822s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.822s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.823s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.823s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.823s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.823s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.823s]    79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+[3.823s]       |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.823s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.823s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.823s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.824s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.824s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.824s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.824s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.824s]    79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+[3.824s]       |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.824s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.824s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.824s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.825s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.825s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.825s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.825s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.825s]    87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+[3.825s]       |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.825s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.825s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.825s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.826s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.826s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.826s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.826s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.826s]    87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+[3.826s]       |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.826s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.826s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.826s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.827s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.827s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.827s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.827s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.827s]    87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+[3.827s]       |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.827s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.827s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.827s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.827s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[3.828s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.872s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.872s] /home/carl/nao_bot/libqi/ka/sha1.hpp: In instantiation of ‘[01m[Kint ka::detail::sha1_update(SHA_CTX&, I, I, std::true_type) [with I = const unsigned char*; SHA_CTX = SHAstate_st; std::true_type = std::integral_constant<bool, true>][m[K’:
+[3.872s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:82:29:[m[K   required from ‘[01m[Kka::sha1_digest_t ka::sha1(I, I) [with I = const unsigned char*; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’
+[3.872s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:109:16:[m[K   required from ‘[01m[Kka::sha1_digest_t ka::sha1(const L&) [with L = std::array<unsigned char, 40>; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’
+[3.872s] [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:51:25:[m[K   required from here
+[3.872s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:34:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Update(SHA_CTX*, const void*, size_t)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.873s]    34 |       return [01;35m[KSHA1_Update(&s, b, e - b)[m[K;
+[3.873s]       |              [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.873s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.873s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.873s] [01m[K/usr/include/openssl/sha.h:50:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.873s]    50 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Update[m[K(SHA_CTX *c, const void *data, size_t len);
+[3.873s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[3.873s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.873s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:34:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Update(SHA_CTX*, const void*, size_t)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.874s]    34 |       return [01;35m[KSHA1_Update(&s, b, e - b)[m[K;
+[3.874s]       |              [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.874s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.874s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.874s] [01m[K/usr/include/openssl/sha.h:50:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.874s]    50 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Update[m[K(SHA_CTX *c, const void *data, size_t len);
+[3.874s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[3.874s] In file included from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.874s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:34:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Update(SHA_CTX*, const void*, size_t)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.875s]    34 |       return [01;35m[KSHA1_Update(&s, b, e - b)[m[K;
+[3.875s]       |              [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.875s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[3.875s]                  from [01m[K/home/carl/nao_bot/libqi/src/ptruid.cpp:14[m[K:
+[3.875s] [01m[K/usr/include/openssl/sha.h:50:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.875s]    50 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Update[m[K(SHA_CTX *c, const void *data, size_t len);
+[3.875s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[4.062s] [ 16%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/anyreference.cpp.o[0m
+[4.242s] [ 17%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/anyvalue.cpp.o[0m
+[4.250s] [ 19%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/anyobject.cpp.o[0m
+[4.370s] [ 20%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/genericobject.cpp.o[0m
+[4.643s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.643s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.643s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.643s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.643s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.643s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.644s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.644s]                  from [01m[K/home/carl/nao_bot/libqi/ka/memory.hpp:5[m[K,
+[4.644s]                  from [01m[K/home/carl/nao_bot/libqi/ka/functional.hpp:10[m[K,
+[4.644s]                  from [01m[K/home/carl/nao_bot/libqi/qi/detail/future_fwd.hpp:14[m[K,
+[4.644s]                  from [01m[K/home/carl/nao_bot/libqi/qi/future.hpp:7[m[K,
+[4.645s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobjectbuilder.cpp:6[m[K:
+[4.645s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.645s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.645s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.675s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.675s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.675s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.675s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.675s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.675s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.676s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.676s]                  from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+[4.676s]                  from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+[4.676s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.676s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.676s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.676s] [01m[K/usr/include/boost/function_output_iterator.hpp:14:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.[m[K’
+[4.676s]    14 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<boost/iterator/function_output_iterator.hpp>")
+[4.676s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.693s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.693s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.693s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.693s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.693s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+[4.694s]                  from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+[4.695s]                  from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+[4.695s]                  from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+[4.695s]                  from [01m[K/home/carl/nao_bot/libqi/qi/binarycodec.hpp:10[m[K,
+[4.695s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/binarycodec.cpp:8[m[K:
+[4.695s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.695s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.695s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.719s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:[m[K In function ‘[01m[Kvoid qi::log::detail::createAndInstallDefaultHandler(qi::LogLevel)[m[K’:
+[4.720s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:39:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+[4.720s]   447 |                                       [01;31m[K_1[m[K, _2, _3, _4, _5, _6, _7, _8),
+[4.720s]       |                                       [01;31m[K^~[m[K
+[4.720s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:39:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.721s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.721s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.721s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.721s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.721s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.722s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.722s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.722s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.723s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.723s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.723s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.723s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.723s]       |                [01;36m[K^~[m[K
+[4.723s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.723s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.724s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.724s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.724s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.724s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.725s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.725s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+[4.725s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[4.725s]       |                                  [01;36m[K^~[m[K
+[4.725s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.725s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.725s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.726s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.727s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.727s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.727s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.727s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.728s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.728s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.728s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.728s]       |                [01;36m[K^~[m[K
+[4.728s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.728s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.729s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.729s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.729s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.729s] [01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_1[m[K’
+[4.729s]    46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+[4.729s]       |                                      [01;36m[K^~[m[K
+[4.729s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.729s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.729s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.730s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.730s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.730s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.730s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.731s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.731s] [01m[K/usr/include/boost/mp11/bind.hpp:45:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_1[m[K’
+[4.731s]    45 | using [01;36m[K_1[m[K = mp_arg<0>;
+[4.731s]       |       [01;36m[K^~[m[K
+[4.733s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.733s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.733s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.733s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.733s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.734s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.734s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.734s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.735s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.735s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.735s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.735s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.735s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.735s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.735s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.735s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.736s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.736s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.736s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.736s]       |                [01;36m[K^~[m[K
+[4.737s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:43:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope
+[4.737s]   447 |                                       _1, [01;31m[K_2[m[K, _3, _4, _5, _6, _7, _8),
+[4.737s]       |                                           [01;31m[K^~[m[K
+[4.737s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:43:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.737s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.737s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.737s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.738s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.739s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.739s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.739s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.739s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.739s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.739s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.739s]       |                [01;36m[K^~[m[K
+[4.740s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.740s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.740s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.740s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.740s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.740s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.740s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.740s] [01m[K/usr/include/c++/11/functional:226:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_2[m[K’
+[4.740s]   226 |     extern const _Placeholder<2> [01;36m[K_2[m[K;
+[4.740s]       |                                  [01;36m[K^~[m[K
+[4.741s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.741s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.742s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.742s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.742s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.742s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.742s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.742s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.742s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.742s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.742s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.742s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.743s]       |                [01;36m[K^~[m[K
+[4.743s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.743s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.743s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.743s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.743s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.743s] [01m[K/usr/include/boost/bind/placeholders.hpp:47:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_2[m[K’
+[4.743s]    47 | BOOST_STATIC_CONSTEXPR boost::arg<2> [01;36m[K_2[m[K;
+[4.743s]       |                                      [01;36m[K^~[m[K
+[4.744s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.744s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.744s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.744s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.744s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.744s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.744s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.744s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.744s] [01m[K/usr/include/boost/mp11/bind.hpp:46:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_2[m[K’
+[4.744s]    46 | using [01;36m[K_2[m[K = mp_arg<1>;
+[4.745s]       |       [01;36m[K^~[m[K
+[4.745s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.745s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.746s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.746s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.746s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.746s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.746s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.746s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.746s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.746s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.746s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.747s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.747s]       |                [01;36m[K^~[m[K
+[4.747s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:47:[m[K [01;31m[Kerror: [m[K‘[01m[K_3[m[K’ was not declared in this scope
+[4.747s]   447 |                                       _1, _2, [01;31m[K_3[m[K, _4, _5, _6, _7, _8),
+[4.747s]       |                                               [01;31m[K^~[m[K
+[4.747s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:47:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.747s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.747s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.747s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.748s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.749s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.749s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.749s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.749s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.749s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.749s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.749s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:55:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_3[m[K’
+[4.749s]    55 | typedef arg<3> [01;36m[K_3[m[K;
+[4.749s]       |                [01;36m[K^~[m[K
+[4.750s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.750s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.750s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.750s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.750s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.750s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.750s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.750s] [01m[K/usr/include/c++/11/functional:227:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_3[m[K’
+[4.750s]   227 |     extern const _Placeholder<3> [01;36m[K_3[m[K;
+[4.751s]       |                                  [01;36m[K^~[m[K
+[4.751s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.751s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.751s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.751s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.751s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.751s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.751s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.751s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.752s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.752s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.752s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.752s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.752s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.752s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.752s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.752s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.752s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.753s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:55:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_3[m[K’
+[4.753s]    55 | typedef arg<3> [01;36m[K_3[m[K;
+[4.753s]       |                [01;36m[K^~[m[K
+[4.753s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.753s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.753s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.753s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.753s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.753s] [01m[K/usr/include/boost/bind/placeholders.hpp:48:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_3[m[K’
+[4.754s]    48 | BOOST_STATIC_CONSTEXPR boost::arg<3> [01;36m[K_3[m[K;
+[4.754s]       |                                      [01;36m[K^~[m[K
+[4.754s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.754s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.754s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.754s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.754s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.754s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.754s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.755s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.755s] [01m[K/usr/include/boost/mp11/bind.hpp:47:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_3[m[K’
+[4.755s]    47 | using [01;36m[K_3[m[K = mp_arg<2>;
+[4.755s]       |       [01;36m[K^~[m[K
+[4.755s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.755s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.755s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.755s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.755s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.755s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.756s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.756s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.756s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.756s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.756s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.756s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.756s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.756s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.756s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.757s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.757s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.757s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:55:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_3[m[K’
+[4.757s]    55 | typedef arg<3> [01;36m[K_3[m[K;
+[4.757s]       |                [01;36m[K^~[m[K
+[4.757s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:51:[m[K [01;31m[Kerror: [m[K‘[01m[K_4[m[K’ was not declared in this scope
+[4.757s]   447 |                                       _1, _2, _3, [01;31m[K_4[m[K, _5, _6, _7, _8),
+[4.757s]       |                                                   [01;31m[K^~[m[K
+[4.757s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:51:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.758s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.758s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.759s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.759s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.759s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.759s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.759s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.759s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.759s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.759s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.759s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_4[m[K’
+[4.760s]    68 | typedef arg<4> [01;36m[K_4[m[K;
+[4.760s]       |                [01;36m[K^~[m[K
+[4.760s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.760s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.760s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.760s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.760s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.760s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.760s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.761s] [01m[K/usr/include/c++/11/functional:228:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_4[m[K’
+[4.761s]   228 |     extern const _Placeholder<4> [01;36m[K_4[m[K;
+[4.761s]       |                                  [01;36m[K^~[m[K
+[4.761s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.761s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.761s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.761s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.761s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.761s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.761s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.762s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.762s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.762s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.762s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.762s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.762s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.762s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.762s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.762s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.762s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.763s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_4[m[K’
+[4.763s]    68 | typedef arg<4> [01;36m[K_4[m[K;
+[4.763s]       |                [01;36m[K^~[m[K
+[4.763s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.763s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.763s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.763s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.763s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.763s] [01m[K/usr/include/boost/bind/placeholders.hpp:49:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_4[m[K’
+[4.764s]    49 | BOOST_STATIC_CONSTEXPR boost::arg<4> [01;36m[K_4[m[K;
+[4.764s]       |                                      [01;36m[K^~[m[K
+[4.764s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.764s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.764s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.764s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.764s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.764s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.764s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.765s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.765s] [01m[K/usr/include/boost/mp11/bind.hpp:48:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_4[m[K’
+[4.765s]    48 | using [01;36m[K_4[m[K = mp_arg<3>;
+[4.765s]       |       [01;36m[K^~[m[K
+[4.765s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.765s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.765s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.765s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.765s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.766s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.766s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.766s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.767s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.767s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.767s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_4[m[K’
+[4.767s]    68 | typedef arg<4> [01;36m[K_4[m[K;
+[4.767s]       |                [01;36m[K^~[m[K
+[4.767s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:55:[m[K [01;31m[Kerror: [m[K‘[01m[K_5[m[K’ was not declared in this scope
+[4.767s]   447 |                                       _1, _2, _3, _4, [01;31m[K_5[m[K, _6, _7, _8),
+[4.767s]       |                                                       [01;31m[K^~[m[K
+[4.767s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:55:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.768s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.768s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.769s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.769s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.769s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.769s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.769s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.769s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.769s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.769s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.769s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:81:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_5[m[K’
+[4.769s]    81 | typedef arg<5> [01;36m[K_5[m[K;
+[4.770s]       |                [01;36m[K^~[m[K
+[4.770s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.770s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.770s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.770s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.770s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.770s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.770s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.770s] [01m[K/usr/include/c++/11/functional:229:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_5[m[K’
+[4.771s]   229 |     extern const _Placeholder<5> [01;36m[K_5[m[K;
+[4.771s]       |                                  [01;36m[K^~[m[K
+[4.771s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.771s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.771s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.771s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.771s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.771s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.771s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.772s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.772s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.772s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.772s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.772s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.772s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.772s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.772s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.772s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.773s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.773s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:81:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_5[m[K’
+[4.773s]    81 | typedef arg<5> [01;36m[K_5[m[K;
+[4.773s]       |                [01;36m[K^~[m[K
+[4.773s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.773s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.773s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.773s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.773s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.774s] [01m[K/usr/include/boost/bind/placeholders.hpp:50:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_5[m[K’
+[4.774s]    50 | BOOST_STATIC_CONSTEXPR boost::arg<5> [01;36m[K_5[m[K;
+[4.774s]       |                                      [01;36m[K^~[m[K
+[4.774s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.774s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.774s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.774s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.774s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.774s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.775s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.775s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.775s] [01m[K/usr/include/boost/mp11/bind.hpp:49:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_5[m[K’
+[4.775s]    49 | using [01;36m[K_5[m[K = mp_arg<4>;
+[4.775s]       |       [01;36m[K^~[m[K
+[4.775s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.775s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.775s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.775s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.776s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.777s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.777s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.777s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.777s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.777s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.777s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:81:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_5[m[K’
+[4.777s]    81 | typedef arg<5> [01;36m[K_5[m[K;
+[4.777s]       |                [01;36m[K^~[m[K
+[4.777s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:59:[m[K [01;31m[Kerror: [m[K‘[01m[K_6[m[K’ was not declared in this scope
+[4.778s]   447 |                                       _1, _2, _3, _4, _5, [01;31m[K_6[m[K, _7, _8),
+[4.778s]       |                                                           [01;31m[K^~[m[K
+[4.778s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:59:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.778s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.778s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.778s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.778s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.778s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.778s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.779s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.779s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.779s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.779s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.779s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.779s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.779s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.779s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.779s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.780s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.780s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.780s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:94:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_6[m[K’
+[4.780s]    94 | typedef arg<6> [01;36m[K_6[m[K;
+[4.780s]       |                [01;36m[K^~[m[K
+[4.780s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.780s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.780s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.781s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.781s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.781s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.781s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.781s] [01m[K/usr/include/c++/11/functional:230:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_6[m[K’
+[4.781s]   230 |     extern const _Placeholder<6> [01;36m[K_6[m[K;
+[4.781s]       |                                  [01;36m[K^~[m[K
+[4.781s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.781s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.782s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.783s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.783s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.783s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.783s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.783s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.783s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.783s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:94:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_6[m[K’
+[4.783s]    94 | typedef arg<6> [01;36m[K_6[m[K;
+[4.783s]       |                [01;36m[K^~[m[K
+[4.784s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.784s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.784s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.784s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.784s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.784s] [01m[K/usr/include/boost/bind/placeholders.hpp:51:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_6[m[K’
+[4.784s]    51 | BOOST_STATIC_CONSTEXPR boost::arg<6> [01;36m[K_6[m[K;
+[4.784s]       |                                      [01;36m[K^~[m[K
+[4.785s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.785s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.785s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.785s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.785s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.785s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.785s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.785s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.785s] [01m[K/usr/include/boost/mp11/bind.hpp:50:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_6[m[K’
+[4.786s]    50 | using [01;36m[K_6[m[K = mp_arg<5>;
+[4.786s]       |       [01;36m[K^~[m[K
+[4.786s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.786s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.786s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.786s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.786s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.786s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.786s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.786s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.787s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.787s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.787s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.787s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.787s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.787s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.787s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.787s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.788s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.788s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:94:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_6[m[K’
+[4.788s]    94 | typedef arg<6> [01;36m[K_6[m[K;
+[4.788s]       |                [01;36m[K^~[m[K
+[4.788s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:63:[m[K [01;31m[Kerror: [m[K‘[01m[K_7[m[K’ was not declared in this scope
+[4.788s]   447 |                                       _1, _2, _3, _4, _5, _6, [01;31m[K_7[m[K, _8),
+[4.788s]       |                                                               [01;31m[K^~[m[K
+[4.788s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:63:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.788s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.789s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.789s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.789s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.789s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.789s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.789s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.789s] [01m[K/usr/include/c++/11/functional:231:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_7[m[K’
+[4.789s]   231 |     extern const _Placeholder<7> [01;36m[K_7[m[K;
+[4.789s]       |                                  [01;36m[K^~[m[K
+[4.790s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.790s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.790s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.790s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.790s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.790s] [01m[K/usr/include/boost/bind/placeholders.hpp:52:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_7[m[K’
+[4.790s]    52 | BOOST_STATIC_CONSTEXPR boost::arg<7> [01;36m[K_7[m[K;
+[4.790s]       |                                      [01;36m[K^~[m[K
+[4.790s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.791s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.791s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.791s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.791s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.791s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.791s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.791s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.791s] [01m[K/usr/include/boost/mp11/bind.hpp:51:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_7[m[K’
+[4.791s]    51 | using [01;36m[K_7[m[K = mp_arg<6>;
+[4.792s]       |       [01;36m[K^~[m[K
+[4.792s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:67:[m[K [01;31m[Kerror: [m[K‘[01m[K_8[m[K’ was not declared in this scope
+[4.792s]   447 |                                       _1, _2, _3, _4, _5, _6, _7, [01;31m[K_8[m[K),
+[4.792s]       |                                                                   [01;31m[K^~[m[K
+[4.792s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:447:67:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.792s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.792s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.792s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.792s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.793s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.793s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.793s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.793s] [01m[K/usr/include/c++/11/functional:232:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_8[m[K’
+[4.793s]   232 |     extern const _Placeholder<8> [01;36m[K_8[m[K;
+[4.793s]       |                                  [01;36m[K^~[m[K
+[4.793s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.793s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.793s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.794s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.794s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.794s] [01m[K/usr/include/boost/bind/placeholders.hpp:53:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_8[m[K’
+[4.794s]    53 | BOOST_STATIC_CONSTEXPR boost::arg<8> [01;36m[K_8[m[K;
+[4.794s]       |                                      [01;36m[K^~[m[K
+[4.794s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.794s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.794s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.795s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.795s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.795s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.795s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.795s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.795s] [01m[K/usr/include/boost/mp11/bind.hpp:52:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_8[m[K’
+[4.795s]    52 | using [01;36m[K_8[m[K = mp_arg<7>;
+[4.795s]       |       [01;36m[K^~[m[K
+[4.795s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.795s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.796s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.796s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.796s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.796s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.796s]                  from [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:17[m[K,
+[4.796s]                  from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+[4.796s]                  from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+[4.796s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobject.cpp:7[m[K:
+[4.797s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.797s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.797s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.813s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:[m[K In function ‘[01m[Kqi::log::SubscriberId qi::log::addLogHandler(const string&, qi::log::logFuncHandler, qi::LogLevel)[m[K’:
+[4.813s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:28:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+[4.813s]   912 |                       fct, [01;31m[K_1[m[K, _2, _3, _4, _5, _6, _7, _8),
+[4.814s]       |                            [01;31m[K^~[m[K
+[4.814s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:28:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.814s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.814s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.814s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.815s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.815s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.815s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.815s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.815s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.816s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.816s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.816s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.816s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.816s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.816s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.817s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.817s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.817s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.817s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.817s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.818s]       |                [01;36m[K^~[m[K
+[4.818s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.818s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.818s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.818s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.818s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.819s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.819s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.819s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+[4.819s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[4.819s]       |                                  [01;36m[K^~[m[K
+[4.820s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.820s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.820s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.820s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.820s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.821s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.821s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.821s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.821s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.821s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.821s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.822s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.822s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.822s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.822s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.822s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.822s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.823s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.823s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.823s]       |                [01;36m[K^~[m[K
+[4.823s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.823s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.824s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.824s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.824s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.824s] [01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_1[m[K’
+[4.824s]    46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+[4.825s]       |                                      [01;36m[K^~[m[K
+[4.825s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.825s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.825s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.825s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.825s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.826s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.826s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.826s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.826s] [01m[K/usr/include/boost/mp11/bind.hpp:45:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_1[m[K’
+[4.826s]    45 | using [01;36m[K_1[m[K = mp_arg<0>;
+[4.827s]       |       [01;36m[K^~[m[K
+[4.827s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.827s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.827s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.827s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.828s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.828s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.828s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.828s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.828s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.828s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.829s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.829s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.829s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.829s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.829s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.829s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.830s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.830s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.830s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.830s]       |                [01;36m[K^~[m[K
+[4.832s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:32:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope
+[4.832s]   912 |                       fct, _1, [01;31m[K_2[m[K, _3, _4, _5, _6, _7, _8),
+[4.832s]       |                                [01;31m[K^~[m[K
+[4.832s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:32:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.833s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.833s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.833s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.833s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.833s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.833s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.834s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.834s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.834s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.834s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.834s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.835s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.835s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.835s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.835s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.835s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.839s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.839s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.839s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.839s]       |                [01;36m[K^~[m[K
+[4.839s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.840s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.840s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.840s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.840s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.840s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.840s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.840s] [01m[K/usr/include/c++/11/functional:226:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_2[m[K’
+[4.840s]   226 |     extern const _Placeholder<2> [01;36m[K_2[m[K;
+[4.840s]       |                                  [01;36m[K^~[m[K
+[4.840s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.841s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.842s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.842s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.842s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.842s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.842s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.842s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.842s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.842s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.842s]       |                [01;36m[K^~[m[K
+[4.843s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.843s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.843s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.843s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.843s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.843s] [01m[K/usr/include/boost/bind/placeholders.hpp:47:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_2[m[K’
+[4.843s]    47 | BOOST_STATIC_CONSTEXPR boost::arg<2> [01;36m[K_2[m[K;
+[4.843s]       |                                      [01;36m[K^~[m[K
+[4.843s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.843s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.844s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.844s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.844s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.844s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.844s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.844s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.844s] [01m[K/usr/include/boost/mp11/bind.hpp:46:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_2[m[K’
+[4.844s]    46 | using [01;36m[K_2[m[K = mp_arg<1>;
+[4.844s]       |       [01;36m[K^~[m[K
+[4.844s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.845s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.846s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.846s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.846s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.846s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.846s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.846s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.846s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.846s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.846s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.847s]       |                [01;36m[K^~[m[K
+[4.847s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_3[m[K’ was not declared in this scope
+[4.847s]   912 |                       fct, _1, _2, [01;31m[K_3[m[K, _4, _5, _6, _7, _8),
+[4.847s]       |                                    [01;31m[K^~[m[K
+[4.847s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:36:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.848s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.848s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.848s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.848s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.848s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.848s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.848s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.852s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.852s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.853s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.853s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.853s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.853s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.853s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.853s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.853s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.853s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.853s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:55:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_3[m[K’
+[4.853s]    55 | typedef arg<3> [01;36m[K_3[m[K;
+[4.854s]       |                [01;36m[K^~[m[K
+[4.854s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.854s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.854s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.854s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.854s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.854s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.854s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.854s] [01m[K/usr/include/c++/11/functional:227:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_3[m[K’
+[4.855s]   227 |     extern const _Placeholder<3> [01;36m[K_3[m[K;
+[4.855s]       |                                  [01;36m[K^~[m[K
+[4.855s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.855s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.855s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.855s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.855s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.855s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.855s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.855s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.856s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.856s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.856s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.856s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.856s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.856s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.856s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.856s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.856s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.856s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:55:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_3[m[K’
+[4.857s]    55 | typedef arg<3> [01;36m[K_3[m[K;
+[4.857s]       |                [01;36m[K^~[m[K
+[4.857s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.857s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.857s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.857s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.857s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.857s] [01m[K/usr/include/boost/bind/placeholders.hpp:48:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_3[m[K’
+[4.857s]    48 | BOOST_STATIC_CONSTEXPR boost::arg<3> [01;36m[K_3[m[K;
+[4.858s]       |                                      [01;36m[K^~[m[K
+[4.858s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.858s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.858s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.858s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.858s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.858s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.858s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.858s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.858s] [01m[K/usr/include/boost/mp11/bind.hpp:47:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_3[m[K’
+[4.859s]    47 | using [01;36m[K_3[m[K = mp_arg<2>;
+[4.859s]       |       [01;36m[K^~[m[K
+[4.859s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.859s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.859s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.859s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.859s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.859s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.860s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.860s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.860s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.860s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.861s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.861s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.861s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.861s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.861s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.862s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.862s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.862s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:55:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_3[m[K’
+[4.862s]    55 | typedef arg<3> [01;36m[K_3[m[K;
+[4.862s]       |                [01;36m[K^~[m[K
+[4.862s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:40:[m[K [01;31m[Kerror: [m[K‘[01m[K_4[m[K’ was not declared in this scope
+[4.862s]   912 |                       fct, _1, _2, _3, [01;31m[K_4[m[K, _5, _6, _7, _8),
+[4.862s]       |                                        [01;31m[K^~[m[K
+[4.863s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:40:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.863s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.863s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.863s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.864s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.865s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.865s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.865s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.865s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.865s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.865s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.865s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_4[m[K’
+[4.865s]    68 | typedef arg<4> [01;36m[K_4[m[K;
+[4.865s]       |                [01;36m[K^~[m[K
+[4.865s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.866s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.866s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.866s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.866s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.866s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.866s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.866s] [01m[K/usr/include/c++/11/functional:228:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_4[m[K’
+[4.866s]   228 |     extern const _Placeholder<4> [01;36m[K_4[m[K;
+[4.866s]       |                                  [01;36m[K^~[m[K
+[4.867s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.867s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.868s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.868s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.868s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.868s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.868s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.868s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.868s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.868s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_4[m[K’
+[4.868s]    68 | typedef arg<4> [01;36m[K_4[m[K;
+[4.868s]       |                [01;36m[K^~[m[K
+[4.869s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.869s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.869s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.869s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.869s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.869s] [01m[K/usr/include/boost/bind/placeholders.hpp:49:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_4[m[K’
+[4.869s]    49 | BOOST_STATIC_CONSTEXPR boost::arg<4> [01;36m[K_4[m[K;
+[4.869s]       |                                      [01;36m[K^~[m[K
+[4.869s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.870s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.870s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.870s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.870s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.870s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.870s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.870s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.870s] [01m[K/usr/include/boost/mp11/bind.hpp:48:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_4[m[K’
+[4.870s]    48 | using [01;36m[K_4[m[K = mp_arg<3>;
+[4.871s]       |       [01;36m[K^~[m[K
+[4.871s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.871s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.871s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.871s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.871s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.871s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.871s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.871s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.872s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.872s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.872s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.872s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.872s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.872s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.872s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.873s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.873s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.873s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_4[m[K’
+[4.873s]    68 | typedef arg<4> [01;36m[K_4[m[K;
+[4.873s]       |                [01;36m[K^~[m[K
+[4.873s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:44:[m[K [01;31m[Kerror: [m[K‘[01m[K_5[m[K’ was not declared in this scope
+[4.873s]   912 |                       fct, _1, _2, _3, _4, [01;31m[K_5[m[K, _6, _7, _8),
+[4.873s]       |                                            [01;31m[K^~[m[K
+[4.873s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:44:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.874s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.874s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.874s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.874s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.874s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.874s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.874s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.875s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.875s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.875s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.875s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.875s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.875s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.875s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.875s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.875s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.876s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.876s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:81:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_5[m[K’
+[4.876s]    81 | typedef arg<5> [01;36m[K_5[m[K;
+[4.876s]       |                [01;36m[K^~[m[K
+[4.876s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.876s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.876s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.876s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.876s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.877s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.877s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.877s] [01m[K/usr/include/c++/11/functional:229:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_5[m[K’
+[4.877s]   229 |     extern const _Placeholder<5> [01;36m[K_5[m[K;
+[4.877s]       |                                  [01;36m[K^~[m[K
+[4.877s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.877s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.877s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.877s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.878s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.878s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.879s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.879s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.879s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.879s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:81:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_5[m[K’
+[4.879s]    81 | typedef arg<5> [01;36m[K_5[m[K;
+[4.879s]       |                [01;36m[K^~[m[K
+[4.879s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.879s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.879s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.880s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.880s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.881s] [01m[K/usr/include/boost/bind/placeholders.hpp:50:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_5[m[K’
+[4.882s]    50 | BOOST_STATIC_CONSTEXPR boost::arg<5> [01;36m[K_5[m[K;
+[4.882s]       |                                      [01;36m[K^~[m[K
+[4.882s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.882s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.882s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.882s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.882s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.882s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.882s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.883s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.883s] [01m[K/usr/include/boost/mp11/bind.hpp:49:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_5[m[K’
+[4.883s]    49 | using [01;36m[K_5[m[K = mp_arg<4>;
+[4.883s]       |       [01;36m[K^~[m[K
+[4.883s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.883s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.883s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.883s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.883s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.884s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.884s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.884s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.885s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.885s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.885s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:81:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_5[m[K’
+[4.885s]    81 | typedef arg<5> [01;36m[K_5[m[K;
+[4.885s]       |                [01;36m[K^~[m[K
+[4.885s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:48:[m[K [01;31m[Kerror: [m[K‘[01m[K_6[m[K’ was not declared in this scope
+[4.885s]   912 |                       fct, _1, _2, _3, _4, _5, [01;31m[K_6[m[K, _7, _8),
+[4.885s]       |                                                [01;31m[K^~[m[K
+[4.885s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:48:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.885s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.886s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.887s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.887s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.887s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.887s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.887s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.887s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:94:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_6[m[K’
+[4.887s]    94 | typedef arg<6> [01;36m[K_6[m[K;
+[4.887s]       |                [01;36m[K^~[m[K
+[4.887s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.888s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.888s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.888s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.888s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.888s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.888s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.888s] [01m[K/usr/include/c++/11/functional:230:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_6[m[K’
+[4.888s]   230 |     extern const _Placeholder<6> [01;36m[K_6[m[K;
+[4.888s]       |                                  [01;36m[K^~[m[K
+[4.888s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.889s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.890s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.890s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.890s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.890s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.890s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.890s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.890s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.890s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:94:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_6[m[K’
+[4.890s]    94 | typedef arg<6> [01;36m[K_6[m[K;
+[4.890s]       |                [01;36m[K^~[m[K
+[4.891s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.891s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.891s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.891s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.891s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.891s] [01m[K/usr/include/boost/bind/placeholders.hpp:51:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_6[m[K’
+[4.891s]    51 | BOOST_STATIC_CONSTEXPR boost::arg<6> [01;36m[K_6[m[K;
+[4.891s]       |                                      [01;36m[K^~[m[K
+[4.891s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.891s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.892s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.892s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.892s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.892s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.892s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.892s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.892s] [01m[K/usr/include/boost/mp11/bind.hpp:50:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_6[m[K’
+[4.892s]    50 | using [01;36m[K_6[m[K = mp_arg<5>;
+[4.892s]       |       [01;36m[K^~[m[K
+[4.892s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/mpl/aux_/fold_impl.hpp:19[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/mpl/fold.hpp:20[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/mpl/remove_if.hpp:18[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/mpl/remove.hpp:18[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/function_types/components.hpp:44[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/function_types/is_member_function_pointer.hpp:14[m[K,
+[4.893s]                  from [01m[K/usr/include/boost/tti/detail/dmem_fun.hpp:10[m[K,
+[4.894s]                  from [01m[K/usr/include/boost/tti/has_member_function.hpp:15[m[K,
+[4.894s]                  from [01m[K/usr/include/boost/uuid/random_generator.hpp:20[m[K,
+[4.894s]                  from [01m[K/usr/include/boost/uuid/uuid_generators.hpp:17[m[K,
+[4.894s]                  from [01m[K/home/carl/nao_bot/libqi/qi/uuid.hpp:5[m[K,
+[4.894s]                  from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:21[m[K,
+[4.894s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+[4.894s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.894s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:94:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_6[m[K’
+[4.894s]    94 | typedef arg<6> [01;36m[K_6[m[K;
+[4.894s]       |                [01;36m[K^~[m[K
+[4.895s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+[4.895s]                  from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+[4.896s]                  from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+[4.896s]                  from [01m[K/usr/include/boost/thread/synchronized_value.hpp:14[m[K,
+[4.896s]                  from [01m[K/home/carl/nao_bot/libqi/src/strand.cpp:7[m[K:
+[4.896s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.896s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.896s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.896s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:52:[m[K [01;31m[Kerror: [m[K‘[01m[K_7[m[K’ was not declared in this scope
+[4.896s]   912 |                       fct, _1, _2, _3, _4, _5, _6, [01;31m[K_7[m[K, _8),
+[4.896s]       |                                                    [01;31m[K^~[m[K
+[4.897s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:52:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.897s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.897s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.897s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.897s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.897s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.897s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.897s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.897s] [01m[K/usr/include/c++/11/functional:231:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_7[m[K’
+[4.897s]   231 |     extern const _Placeholder<7> [01;36m[K_7[m[K;
+[4.898s]       |                                  [01;36m[K^~[m[K
+[4.898s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.898s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.898s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.898s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.898s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.898s] [01m[K/usr/include/boost/bind/placeholders.hpp:52:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_7[m[K’
+[4.898s]    52 | BOOST_STATIC_CONSTEXPR boost::arg<7> [01;36m[K_7[m[K;
+[4.898s]       |                                      [01;36m[K^~[m[K
+[4.898s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.899s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.899s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.899s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.899s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.899s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.899s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.899s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.899s] [01m[K/usr/include/boost/mp11/bind.hpp:51:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_7[m[K’
+[4.899s]    51 | using [01;36m[K_7[m[K = mp_arg<6>;
+[4.899s]       |       [01;36m[K^~[m[K
+[4.900s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:56:[m[K [01;31m[Kerror: [m[K‘[01m[K_8[m[K’ was not declared in this scope
+[4.900s]   912 |                       fct, _1, _2, _3, _4, _5, _6, _7, [01;31m[K_8[m[K),
+[4.900s]       |                                                        [01;31m[K^~[m[K
+[4.900s] [01m[K/home/carl/nao_bot/libqi/src/log.cpp:912:56:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.900s] In file included from [01m[K/usr/include/boost/utility/compare_pointees.hpp:15[m[K,
+[4.900s]                  from [01m[K/usr/include/boost/optional/optional.hpp:55[m[K,
+[4.900s]                  from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+[4.900s]                  from [01m[K/usr/include/boost/format/internals.hpp:21[m[K,
+[4.900s]                  from [01m[K/usr/include/boost/format.hpp:38[m[K,
+[4.901s]                  from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+[4.901s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[4.901s] [01m[K/usr/include/c++/11/functional:232:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_8[m[K’
+[4.901s]   232 |     extern const _Placeholder<8> [01;36m[K_8[m[K;
+[4.901s]       |                                  [01;36m[K^~[m[K
+[4.901s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.901s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.901s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.901s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.901s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:29[m[K:
+[4.902s] [01m[K/usr/include/boost/bind/placeholders.hpp:53:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_8[m[K’
+[4.902s]    53 | BOOST_STATIC_CONSTEXPR boost::arg<8> [01;36m[K_8[m[K;
+[4.902s]       |                                      [01;36m[K^~[m[K
+[4.902s] In file included from [01m[K/usr/include/boost/parameter/aux_/is_placeholder.hpp:46[m[K,
+[4.902s]                  from [01m[K/usr/include/boost/parameter/value_type.hpp:101[m[K,
+[4.902s]                  from [01m[K/usr/include/boost/parameter/aux_/arg_list.hpp:1207[m[K,
+[4.902s]                  from [01m[K/usr/include/boost/parameter/parameters.hpp:22[m[K,
+[4.902s]                  from [01m[K/usr/include/boost/lockfree/detail/parameter.hpp:13[m[K,
+[4.902s]                  from [01m[K/usr/include/boost/lockfree/detail/freelist.hpp:26[m[K,
+[4.903s]                  from [01m[K/usr/include/boost/lockfree/queue.hpp:23[m[K,
+[4.903s]                  from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:37[m[K:
+[4.903s] [01m[K/usr/include/boost/mp11/bind.hpp:52:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mp11::_8[m[K’
+[4.903s]    52 | using [01;36m[K_8[m[K = mp_arg<7>;
+[4.903s]       |       [01;36m[K^~[m[K
+[4.931s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:[m[K In function ‘[01m[Kvoid qi::stop_handler(int)[m[K’:
+[4.931s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:107:64:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+[4.931s]   107 |      Application::atSignal(boost::bind<void>(&stop_handler, [01;31m[K_1[m[K), signal_number);
+[4.931s]       |                                                             [01;31m[K^~[m[K
+[4.931s] 
+[4.931s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:107:64:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.932s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.932s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.932s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.932s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.932s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.932s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.932s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.932s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.932s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.933s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.933s]       |                [01;36m[K^~[m[K
+[4.933s] In file included from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:10[m[K:
+[4.933s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+[4.933s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[4.933s]       |                                  [01;36m[K^~[m[K
+[4.933s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.933s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.933s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.934s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.934s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.934s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.934s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.934s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.934s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.934s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.934s]       |                [01;36m[K^~[m[K
+[4.934s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.934s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.935s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.935s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.935s]                  from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+[4.935s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:20[m[K:
+[4.935s] [01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_1[m[K’
+[4.935s]    46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+[4.935s]       |                                      [01;36m[K^~[m[K
+[4.935s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.935s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.935s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.936s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.936s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.936s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.936s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.936s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.936s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.936s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.936s]       |                [01;36m[K^~[m[K
+[4.958s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:[m[K In static member function ‘[01m[Kstatic void qi::Application::run()[m[K’:
+[4.958s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:316:53:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+[4.958s]   316 |     atSignal.emplace_back(boost::bind(stop_handler, [01;31m[K_1[m[K), SIGTERM);
+[4.958s]       |                                                     [01;31m[K^~[m[K
+[4.959s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:316:53:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.959s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.959s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.959s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.959s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.959s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.959s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.959s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.959s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.960s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.960s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.960s]       |                [01;36m[K^~[m[K
+[4.960s] In file included from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:10[m[K:
+[4.960s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+[4.960s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[4.960s]       |                                  [01;36m[K^~[m[K
+[4.960s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.960s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.961s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.961s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.961s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.961s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.961s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.961s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.961s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.961s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.961s]       |                [01;36m[K^~[m[K
+[4.962s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.962s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.962s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.962s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.963s]                  from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+[4.963s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:20[m[K:
+[4.963s] [01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_1[m[K’
+[4.963s]    46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+[4.963s]       |                                      [01;36m[K^~[m[K
+[4.963s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.963s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.963s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.963s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.964s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.964s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.964s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.964s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.964s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:29:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_1[m[K’
+[4.964s]    29 | typedef arg<1> [01;36m[K_1[m[K;
+[4.964s]       |                [01;36m[K^~[m[K
+[4.964s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:321:51:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope
+[4.964s]   321 |                   boost::bind(signal_handler, _1, [01;31m[K_2[m[K, std::move(func.first)));
+[4.964s]       |                                                   [01;31m[K^~[m[K
+[4.965s] [01m[K/home/carl/nao_bot/libqi/src/application.cpp:321:51:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.965s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.965s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.965s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.965s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.965s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.965s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.965s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.965s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.966s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.966s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.966s]       |                [01;36m[K^~[m[K
+[4.966s] In file included from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:10[m[K:
+[4.966s] [01m[K/usr/include/c++/11/functional:226:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_2[m[K’
+[4.966s]   226 |     extern const _Placeholder<2> [01;36m[K_2[m[K;
+[4.966s]       |                                  [01;36m[K^~[m[K
+[4.966s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.966s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.966s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.967s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.967s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.967s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.967s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.967s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.967s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.967s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.967s]       |                [01;36m[K^~[m[K
+[4.967s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.967s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:33[m[K,
+[4.968s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[4.968s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[4.968s]                  from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+[4.968s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:20[m[K:
+[4.968s] [01m[K/usr/include/boost/bind/placeholders.hpp:47:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::placeholders::_2[m[K’
+[4.968s]    47 | BOOST_STATIC_CONSTEXPR boost::arg<2> [01;36m[K_2[m[K;
+[4.968s]       |                                      [01;36m[K^~[m[K
+[4.968s] In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+[4.968s]                  from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+[4.969s]                  from [01m[K/usr/include/boost/iterator/iterator_categories.hpp:16[m[K,
+[4.969s]                  from [01m[K/usr/include/boost/iterator/iterator_facade.hpp:13[m[K,
+[4.969s]                  from [01m[K/usr/include/boost/filesystem/path.hpp:29[m[K,
+[4.969s]                  from [01m[K/usr/include/boost/filesystem.hpp:16[m[K,
+[4.969s]                  from [01m[K/home/carl/nao_bot/libqi/src/application_p.hpp:5[m[K,
+[4.969s]                  from [01m[K/home/carl/nao_bot/libqi/src/application.cpp:12[m[K:
+[4.969s] [01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:42:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_2[m[K’
+[4.969s]    42 | typedef arg<2> [01;36m[K_2[m[K;
+[4.969s]       |                [01;36m[K^~[m[K
+[5.269s] In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[5.269s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobjectbuilder.cpp:10[m[K:
+[5.269s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[5.269s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.269s]    70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+[5.269s]       |          [01;35m[K~~~~~~~~~^~~~[m[K
+[5.269s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[5.270s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[5.270s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobjectbuilder.cpp:10[m[K:
+[5.270s] [01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.270s]    49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+[5.270s]       |                           [01;36m[K^~~~~~~~~[m[K
+[5.270s] In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[5.270s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobjectbuilder.cpp:10[m[K:
+[5.270s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In lambda function:
+[5.270s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.271s]    79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+[5.271s]       |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.271s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[5.271s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[5.271s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobjectbuilder.cpp:10[m[K:
+[5.271s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.271s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[5.271s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[5.271s] In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[5.271s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobjectbuilder.cpp:10[m[K:
+[5.272s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[5.272s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.272s]    87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+[5.272s]       |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[5.272s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[5.272s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[5.272s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/dynamicobjectbuilder.cpp:10[m[K:
+[5.272s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.272s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[5.273s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[5.320s] [ 21%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/jsondecoder.cpp.o[0m
+[5.927s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:174: CMakeFiles/qi.dir/src/log.cpp.o] Error 1
+[5.927s] gmake[2]: *** Waiting for unfinished jobs....
+[6.206s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:104: CMakeFiles/qi.dir/src/application.cpp.o] Error 1
+[7.384s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[7.384s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[7.384s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[7.384s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[7.384s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+[7.385s]                  from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+[7.386s]                  from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+[7.386s]                  from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+[7.386s]                  from [01m[K/home/carl/nao_bot/libqi/qi/anyobject.hpp:13[m[K,
+[7.386s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/genericobject.cpp:2[m[K:
+[7.386s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[7.386s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[7.386s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.544s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[7.544s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[7.544s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[7.544s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[7.544s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[7.544s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[7.544s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[7.544s]                  from [01m[K/home/carl/nao_bot/libqi/ka/memory.hpp:5[m[K,
+[7.544s]                  from [01m[K/home/carl/nao_bot/libqi/ka/functional.hpp:10[m[K,
+[7.545s]                  from [01m[K/home/carl/nao_bot/libqi/qi/detail/future_fwd.hpp:14[m[K,
+[7.545s]                  from [01m[K/home/carl/nao_bot/libqi/qi/future.hpp:7[m[K,
+[7.545s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/anyfunction.cpp:7[m[K:
+[7.545s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[7.545s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[7.545s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.774s] In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[7.774s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/genericobject.cpp:5[m[K:
+[7.774s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[7.775s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.775s]    70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+[7.775s]       |          [01;35m[K~~~~~~~~~^~~~[m[K
+[7.775s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[7.775s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[7.775s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/genericobject.cpp:5[m[K:
+[7.775s] [01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.775s]    49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+[7.775s]       |                           [01;36m[K^~~~~~~~~[m[K
+[7.775s] In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[7.775s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/genericobject.cpp:5[m[K:
+[7.776s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In lambda function:
+[7.776s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.776s]    79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+[7.776s]       |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.776s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[7.776s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[7.776s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/genericobject.cpp:5[m[K:
+[7.776s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.776s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[7.776s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[7.776s] In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[7.777s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/genericobject.cpp:5[m[K:
+[7.777s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[7.777s] [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.777s]    87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+[7.777s]       |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[7.777s] In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+[7.777s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+[7.777s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/genericobject.cpp:5[m[K:
+[7.777s] [01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.777s]    51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+[7.778s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[8.023s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[8.023s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[8.023s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[8.023s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[8.023s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[8.023s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[8.023s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[8.023s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[8.024s]                  from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+[8.024s]                  from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+[8.024s]                  from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+[8.024s]                  from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+[8.024s]                  from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+[8.024s]                  from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+[8.024s]                  from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+[8.024s]                  from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+[8.024s]                  from [01m[K/home/carl/nao_bot/libqi/qi/anyobject.hpp:13[m[K,
+[8.025s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/anyobject.cpp:6[m[K:
+[8.025s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[8.025s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[8.025s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.042s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[8.042s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[8.042s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+[8.043s]                  from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+[8.044s]                  from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+[8.044s]                  from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+[8.044s]                  from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+[8.044s]                  from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+[8.044s]                  from [01m[K/home/carl/nao_bot/libqi/qi/type/detail/anyreference.hpp:14[m[K,
+[8.044s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/anyreference.cpp:10[m[K:
+[8.044s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[8.044s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[8.044s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.123s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[8.123s]                  from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+[8.124s]                  from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+[8.124s]                  from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+[8.124s]                  from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+[8.124s]                  from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+[8.124s]                  from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+[8.124s]                  from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+[8.124s]                  from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+[8.124s]                  from [01m[K/home/carl/nao_bot/libqi/qi/type/detail/anyreference.hpp:14[m[K,
+[8.124s]                  from [01m[K/home/carl/nao_bot/libqi/qi/anyvalue.hpp:10[m[K,
+[8.124s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/anyvalue.cpp:8[m[K:
+[8.125s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[8.125s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[8.125s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.992s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[8.992s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[8.992s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+[8.993s]                  from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+[8.994s]                  from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+[8.994s]                  from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+[8.994s]                  from [01m[K/home/carl/nao_bot/libqi/qi/jsoncodec.hpp:10[m[K,
+[8.994s]                  from [01m[K/home/carl/nao_bot/libqi/src/type/jsondecoder.cpp:6[m[K:
+[8.994s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[8.994s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[8.994s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.127s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/qi.dir/all] Error 2
+[13.127s] gmake: *** [Makefile:146: all] Error 2
+[13.129s] Invoked command in '/home/carl/nao_bot/build/naoqi_libqi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/naoqi_libqi -- -j12 -l12

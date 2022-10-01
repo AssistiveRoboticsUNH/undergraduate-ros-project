@@ -1,0 +1,2 @@
+Invoking command in '/home/carl/nao_bot/build/naoqi_libqi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/naoqi_libqi -- -j12 -l12
+Invoked command in '/home/carl/nao_bot/build/naoqi_libqi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/naoqi_libqi -- -j12 -l12

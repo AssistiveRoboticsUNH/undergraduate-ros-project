@@ -1,0 +1,1110 @@
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/detail/manageable.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/manageable.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/anyobject.hpp:13[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metasignal_p.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/anyfunction.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metamethod.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/jsoncodec.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/jsonencoder.cpp:12[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metasignal_p.hpp:8[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metasignal.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/typeinterface.hpp:18[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/metaproperty.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaproperty.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/typeinterface.hpp:18[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/signal.cpp:9[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/anymodule.hpp:13[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/anymodule.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/log.cpp:16[m[K:
+[01m[K/usr/include/boost/function_output_iterator.hpp:14:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.[m[K’
+   14 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<boost/iterator/function_output_iterator.hpp>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In lambda function:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+      |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/objecttypebuilder.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/objecttypebuilder.cpp:10[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/objecttypebuilder.cpp:10[m[K:
+[01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/objecttypebuilder.cpp:10[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In lambda function:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/objecttypebuilder.cpp:10[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/objecttypebuilder.cpp:10[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+      |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/objecttypebuilder.cpp:10[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+/home/carl/nao_bot/libqi/ka/sha1.hpp: In instantiation of ‘[01m[Kka::sha1_digest_t ka::sha1(I, I) [with I = __gnu_cxx::__normal_iterator<const char*, std::__cxx11::basic_string<char> >; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:109:16:[m[K   required from ‘[01m[Kka::sha1_digest_t ka::sha1(const L&) [with L = std::__cxx11::basic_string<char>; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:534:28:[m[K   required from here
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+      |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+      |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+      |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+/home/carl/nao_bot/libqi/ka/sha1.hpp: In instantiation of ‘[01m[Kint ka::detail::sha1_update(SHA_CTX&, I, I, std::false_type) [with I = __gnu_cxx::__normal_iterator<const char*, std::__cxx11::basic_string<char> >; SHA_CTX = SHAstate_st; std::false_type = std::integral_constant<bool, false>][m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:82:29:[m[K   required from ‘[01m[Kka::sha1_digest_t ka::sha1(I, I) [with I = __gnu_cxx::__normal_iterator<const char*, std::__cxx11::basic_string<char> >; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:109:16:[m[K   required from ‘[01m[Kka::sha1_digest_t ka::sha1(const L&) [with L = std::__cxx11::basic_string<char>; ka::sha1_digest_t = std::array<unsigned char, 20>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:534:28:[m[K   required from here
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:47:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Update(SHA_CTX*, const void*, size_t)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |         res = [01;35m[KSHA1_Update(&s, &c, 1u)[m[K;
+      |               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:50:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   50 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Update[m[K(SHA_CTX *c, const void *data, size_t len);
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:47:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Update(SHA_CTX*, const void*, size_t)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |         res = [01;35m[KSHA1_Update(&s, &c, 1u)[m[K;
+      |               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:50:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   50 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Update[m[K(SHA_CTX *c, const void *data, size_t len);
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:47:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Update(SHA_CTX*, const void*, size_t)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |         res = [01;35m[KSHA1_Update(&s, &c, 1u)[m[K;
+      |               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject.cpp:9[m[K:
+[01m[K/usr/include/openssl/sha.h:50:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   50 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Update[m[K(SHA_CTX *c, const void *data, size_t len);
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/synchronized_value.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/eventloop.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/actor.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/signalspy.hpp:6[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/signalspy.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/typeinterface.hpp:18[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/structtypeinterface.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/typeinterface.hpp:18[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/detail/type.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/type.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/detail/staticobjecttype.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/staticobjecttype.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/typeinterface.hpp:18[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/typeinterface.cpp:11[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/signature.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/signature.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/traceanalyzer.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/program_options/options_description.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/program_options.hpp:15[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/application.hpp:12[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/applicationsession.hpp:11[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/applicationsession_internal.hpp:11[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/applicationsession_internal.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/authprovider.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/program_options/options_description.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/program_options.hpp:15[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/applicationsession.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/boundobject.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/clientauthenticator.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/messaging/servicedirectoryproxy.hpp:11[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/messaging/gateway.hpp:11[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/gateway.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/message.cpp:7[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/anyobject.hpp:13[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/messagedispatcher.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/messagedispatcher.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/synchronized_value.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/eventloop.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/actor.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/objecthost.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/anyobject.hpp:13[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/objectregistrar.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/ka/memory.hpp:5[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/ka/functional.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/detail/future_fwd.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/future.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/messagesocket.hpp:9[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/remoteobject_p.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/remoteobject.cpp:11[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/servicedirectory.cpp:14[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/signal.hpp:12[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/servicedirectoryclient.hpp:12[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/servicedirectoryclient.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/typeinterface.hpp:18[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/detail/anyreference.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/anyvalue.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/clientauthenticator_p.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/servicedirectoryproxy.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/session.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/session.cpp:12[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/ka/memory.hpp:5[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/ka/functional.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/ka/scoped.hpp:6[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/sessionservice.cpp:11[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/ka/memory.hpp:5[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/ka/functional.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/detail/future_fwd.hpp:14[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/future.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/sessionservices.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/sessionservices.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/atomic.hpp:39[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/anyobject.hpp:13[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/server.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/streamcontext.hpp:10[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/streamcontext.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/transportserver.cpp:15[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/transportserverasio_p.cpp:10[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/messagesocket.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/transportsocketcache.cpp:11[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_waitable_timer.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/steady_timer.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_socket_streambuf.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_socket_iostream.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/asio/ip/tcp.hpp:20[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.cpp:2[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/asio/read.hpp:1288[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:144[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/transportserverasio_p.cpp:10[m[K:
+/usr/include/boost/asio/impl/read.hpp: In instantiation of ‘[01m[Kclass boost::asio::detail::initiate_async_read_buffer_sequence<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >[m[K’:
+[01m[K/usr/include/boost/asio/impl/read.hpp:591:15:[m[K   required from ‘[01m[Ktypename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type boost::asio::async_read(AsyncReadStream&, const MutableBufferSequence&, ReadHandler&&, typename std::enable_if<boost::asio::is_mutable_buffer_sequence<MutableBufferSequence>::value>::type*) [with AsyncReadStream = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; MutableBufferSequence = boost::asio::mutable_buffers_1; ReadHandler = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::receiveMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::Message*, qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::Message*, qi::sock::SslEnabled, size_t, const qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>&, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, std::size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&; typename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type = void; typename std::decay<Number>::type = std::decay<boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::receiveMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::Message*, qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::Message*, qi::sock::SslEnabled, size_t, const qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>&, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, std::size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&>::type; typename std::enable_if<boost::asio::is_mutable_buffer_sequence<MutableBufferSequence>::value>::type = void][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/networkasio.hpp:50:30:[m[K   required from ‘[01m[Kstatic void qi::sock::NetworkAsio::async_read(S&, const B&, H) [with S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; B = boost::asio::mutable_buffers_1; H = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::receiveMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::Message*, qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::Message*, qi::sock::SslEnabled, size_t, const qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>&, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, std::size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/receive.hpp:337:20:[m[K   required from ‘[01m[Kvoid qi::sock::receiveMessage(const S&, M, qi::sock::SslEnabled, size_t, const Proc&, F0, F1) [with N = qi::sock::NetworkAsio; S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; M = qi::Message*; Proc = qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>; size_t = long unsigned int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/receive.hpp:395:24:[m[K   required from ‘[01m[Kvoid qi::sock::ReceiveMessageContinuous<N>::operator()(const S&, qi::sock::SslEnabled, size_t, Proc, const F0&, const F1&) [with S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; Proc = qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>; N = qi::sock::NetworkAsio; size_t = long unsigned int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:288:20:[m[K   required from ‘[01m[Kvoid qi::sock::Connected<N, S>::Impl::start(qi::sock::SslEnabled, size_t, Proc, qi::int64_t) [with Proc = qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; size_t = long unsigned int; qi::int64_t = long int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:248:19:[m[K   required from ‘[01m[Kqi::sock::Connected<N, S>::Connected(qi::sock::SocketPtr<S>&, qi::sock::SslEnabled, size_t, const Proc&, qi::int64_t) [with Proc = qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; qi::sock::SocketPtr<S> = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; size_t = long unsigned int; qi::int64_t = long int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:475:18:[m[K   required from ‘[01m[Kqi::FutureSync<void> qi::TcpMessageSocket<N, S>::connect(const qi::Url&) [with N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:413:20:[m[K   required from here
+[01m[K/usr/include/boost/asio/impl/read.hpp:482:53:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kexecutor_type[m[K’ in ‘[01m[Kclass qi::sock::SocketWithContext<qi::sock::NetworkAsio>[m[K’
+  482 |     typedef typename AsyncReadStream::executor_type [01;31m[Kexecutor_type[m[K;
+      |                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/asio/write.hpp:1246[m[K,
+                 from [01m[K/usr/include/boost/asio/buffered_write_stream.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/asio/buffered_stream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:43[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/transportserverasio_p.cpp:10[m[K:
+/usr/include/boost/asio/impl/write.hpp: In instantiation of ‘[01m[Kclass boost::asio::detail::initiate_async_write_buffer_sequence<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >[m[K’:
+[01m[K/usr/include/boost/asio/impl/write.hpp:557:15:[m[K   required from ‘[01m[Ktypename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type boost::asio::async_write(AsyncWriteStream&, const ConstBufferSequence&, WriteHandler&&, typename std::enable_if<boost::asio::is_const_buffer_sequence<ConstBufferSequence>::value>::type*) [with AsyncWriteStream = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; ConstBufferSequence = std::vector<boost::asio::const_buffer, std::allocator<boost::asio::const_buffer> >; WriteHandler = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::sendMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, qi::sock::SslEnabled, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&; typename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type = void; typename std::decay<Number>::type = std::decay<boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::sendMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, qi::sock::SslEnabled, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&>::type; typename std::enable_if<boost::asio::is_const_buffer_sequence<ConstBufferSequence>::value>::type = void][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/networkasio.hpp:56:31:[m[K   required from ‘[01m[Kstatic void qi::sock::NetworkAsio::async_write(S&, const B&, H) [with S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; B = std::vector<boost::asio::const_buffer, std::allocator<boost::asio::const_buffer> >; H = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::sendMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, qi::sock::SslEnabled, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/send.hpp:213:21:[m[K   required from ‘[01m[Kvoid qi::sock::sendMessage(const S&, M, Proc, qi::sock::SslEnabled, F0, F1) [with N = qi::sock::NetworkAsio; S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; M = std::_List_iterator<qi::Message>; Proc = qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/send.hpp:364:21:[m[K   required from ‘[01m[Kvoid qi::sock::SendMessageEnqueue<N, S>::operator()(Msg&&, qi::sock::SslEnabled, Proc, const F0&, const F1&) [with Msg = qi::Message; Proc = qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>; N = qi::sock::NetworkAsio; S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:333:17:[m[K   required from ‘[01m[Kvoid qi::sock::Connected<N, S>::Impl::send(Msg, qi::sock::SslEnabled, Proc) [with Msg = qi::Message; Proc = ka::constant_function_t<bool>; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:220:27:[m[K   required from ‘[01m[Kvoid qi::sock::Connected<N, S>::send(Msg&&, qi::sock::SslEnabled, const Proc&) [with Msg = qi::Message; Proc = ka::constant_function_t<bool>; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:658:29:[m[K   required from ‘[01m[Kbool qi::TcpMessageSocket<N, S>::send(qi::Message) [with N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:648:8:[m[K   required from here
+[01m[K/usr/include/boost/asio/impl/write.hpp:447:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kexecutor_type[m[K’ in ‘[01m[Kclass qi::sock::SocketWithContext<qi::sock::NetworkAsio>[m[K’
+  447 |     typedef typename AsyncWriteStream::executor_type [01;31m[Kexecutor_type[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/asio/read.hpp:1288[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:144[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/messagesocket.cpp:1[m[K:
+/usr/include/boost/asio/impl/read.hpp: In instantiation of ‘[01m[Kclass boost::asio::detail::initiate_async_read_buffer_sequence<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >[m[K’:
+[01m[K/usr/include/boost/asio/impl/read.hpp:591:15:[m[K   required from ‘[01m[Ktypename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type boost::asio::async_read(AsyncReadStream&, const MutableBufferSequence&, ReadHandler&&, typename std::enable_if<boost::asio::is_mutable_buffer_sequence<MutableBufferSequence>::value>::type*) [with AsyncReadStream = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; MutableBufferSequence = boost::asio::mutable_buffers_1; ReadHandler = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::receiveMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::Message*, qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::Message*, qi::sock::SslEnabled, size_t, const qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>&, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, std::size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&; typename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type = void; typename std::decay<Number>::type = std::decay<boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::receiveMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::Message*, qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::Message*, qi::sock::SslEnabled, size_t, const qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>&, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, std::size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&>::type; typename std::enable_if<boost::asio::is_mutable_buffer_sequence<MutableBufferSequence>::value>::type = void][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/networkasio.hpp:50:30:[m[K   required from ‘[01m[Kstatic void qi::sock::NetworkAsio::async_read(S&, const B&, H) [with S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; B = boost::asio::mutable_buffers_1; H = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::receiveMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::Message*, qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::Message*, qi::sock::SslEnabled, size_t, const qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>&, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, std::size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/receive.hpp:337:20:[m[K   required from ‘[01m[Kvoid qi::sock::receiveMessage(const S&, M, qi::sock::SslEnabled, size_t, const Proc&, F0, F1) [with N = qi::sock::NetworkAsio; S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; M = qi::Message*; Proc = qi::sock::ReceiveMessageContinuous<qi::sock::NetworkAsio>::operator()<boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, qi::sock::SslEnabled, size_t, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>; size_t = long unsigned int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/receive.hpp:395:24:[m[K   required from ‘[01m[Kvoid qi::sock::ReceiveMessageContinuous<N>::operator()(const S&, qi::sock::SslEnabled, size_t, Proc, const F0&, const F1&) [with S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; Proc = qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::start<qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >(qi::sock::SslEnabled, size_t, qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, qi::int64_t)::<lambda()> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, qi::Message*)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>; N = qi::sock::NetworkAsio; size_t = long unsigned int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:288:20:[m[K   required from ‘[01m[Kvoid qi::sock::Connected<N, S>::Impl::start(qi::sock::SslEnabled, size_t, Proc, qi::int64_t) [with Proc = qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; size_t = long unsigned int; qi::int64_t = long int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:248:19:[m[K   required from ‘[01m[Kqi::sock::Connected<N, S>::Connected(qi::sock::SocketPtr<S>&, qi::sock::SslEnabled, size_t, const Proc&, qi::int64_t) [with Proc = qi::sock::HandleMessage<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; qi::sock::SocketPtr<S> = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; size_t = long unsigned int; qi::int64_t = long int][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:475:18:[m[K   required from ‘[01m[Kqi::FutureSync<void> qi::TcpMessageSocket<N, S>::connect(const qi::Url&) [with N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:413:20:[m[K   required from here
+[01m[K/usr/include/boost/asio/impl/read.hpp:482:53:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kexecutor_type[m[K’ in ‘[01m[Kclass qi::sock::SocketWithContext<qi::sock::NetworkAsio>[m[K’
+  482 |     typedef typename AsyncReadStream::executor_type [01;31m[Kexecutor_type[m[K;
+      |                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/asio/write.hpp:1246[m[K,
+                 from [01m[K/usr/include/boost/asio/buffered_write_stream.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/asio/buffered_stream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:43[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/os.hpp:17[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:26[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/messagesocket.cpp:1[m[K:
+/usr/include/boost/asio/impl/write.hpp: In instantiation of ‘[01m[Kclass boost::asio::detail::initiate_async_write_buffer_sequence<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >[m[K’:
+[01m[K/usr/include/boost/asio/impl/write.hpp:557:15:[m[K   required from ‘[01m[Ktypename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type boost::asio::async_write(AsyncWriteStream&, const ConstBufferSequence&, WriteHandler&&, typename std::enable_if<boost::asio::is_const_buffer_sequence<ConstBufferSequence>::value>::type*) [with AsyncWriteStream = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; ConstBufferSequence = std::vector<boost::asio::const_buffer, std::allocator<boost::asio::const_buffer> >; WriteHandler = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::sendMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, qi::sock::SslEnabled, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&; typename boost::asio::async_result<typename std::decay<Number>::type, void(boost::system::error_code, long unsigned int)>::return_type = void; typename std::decay<Number>::type = std::decay<boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::sendMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, qi::sock::SslEnabled, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>&>::type; typename std::enable_if<boost::asio::is_const_buffer_sequence<ConstBufferSequence>::value>::type = void][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/networkasio.hpp:56:31:[m[K   required from ‘[01m[Kstatic void qi::sock::NetworkAsio::async_write(S&, const B&, H) [with S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>; B = std::vector<boost::asio::const_buffer, std::allocator<boost::asio::const_buffer> >; H = boost::asio::detail::wrapped_handler<boost::asio::io_context&, ka::data_bound_proc_t<qi::sock::sendMessage<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(const boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >&, std::_List_iterator<qi::Message>, qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>, qi::sock::SslEnabled, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio>)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, size_t)>, std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, boost::asio::detail::is_continuation_delegated>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/send.hpp:213:21:[m[K   required from ‘[01m[Kvoid qi::sock::sendMessage(const S&, M, Proc, qi::sock::SslEnabled, F0, F1) [with N = qi::sock::NetworkAsio; S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >; M = std::_List_iterator<qi::Message>; Proc = qi::sock::SendMessageEnqueue<qi::sock::NetworkAsio, boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> > >::operator()<qi::Message, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >, qi::sock::StrandTransfo<qi::sock::NetworkAsio> >(qi::Message&&, qi::sock::SslEnabled, qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>, const ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >&, const qi::sock::StrandTransfo<qi::sock::NetworkAsio>&)::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>, I)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/send.hpp:364:21:[m[K   required from ‘[01m[Kvoid qi::sock::SendMessageEnqueue<N, S>::operator()(Msg&&, qi::sock::SslEnabled, Proc, const F0&, const F1&) [with Msg = qi::Message; Proc = qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl::send<qi::Message, ka::constant_function_t<bool> >(qi::Message, qi::sock::SslEnabled, ka::constant_function_t<bool>)::<lambda(qi::Message&)> mutable::<lambda(qi::sock::ErrorCode<qi::sock::NetworkAsio>&, const ReadableMessage&)>; F0 = ka::data_bound_transfo_t<std::shared_ptr<qi::sock::Connected<qi::sock::NetworkAsio, qi::sock::SocketWithContext<qi::sock::NetworkAsio> >::Impl> >; F1 = qi::sock::StrandTransfo<qi::sock::NetworkAsio>; N = qi::sock::NetworkAsio; S = boost::shared_ptr<qi::sock::SocketWithContext<qi::sock::NetworkAsio> >][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:333:17:[m[K   required from ‘[01m[Kvoid qi::sock::Connected<N, S>::Impl::send(Msg, qi::sock::SslEnabled, Proc) [with Msg = qi::Message; Proc = ka::constant_function_t<bool>; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/sock/connectedstate.hpp:220:27:[m[K   required from ‘[01m[Kvoid qi::sock::Connected<N, S>::send(Msg&&, qi::sock::SslEnabled, const Proc&) [with Msg = qi::Message; Proc = ka::constant_function_t<bool>; N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:658:29:[m[K   required from ‘[01m[Kbool qi::TcpMessageSocket<N, S>::send(qi::Message) [with N = qi::sock::NetworkAsio; S = qi::sock::SocketWithContext<qi::sock::NetworkAsio>][m[K’
+[01m[K/home/carl/nao_bot/libqi/src/messaging/tcpmessagesocket.hpp:648:8:[m[K   required from here
+[01m[K/usr/include/boost/asio/impl/write.hpp:447:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kexecutor_type[m[K’ in ‘[01m[Kclass qi::sock::SocketWithContext<qi::sock::NetworkAsio>[m[K’
+  447 |     typedef typename AsyncWriteStream::executor_type [01;31m[Kexecutor_type[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1140: CMakeFiles/qi.dir/src/messaging/transportserverasio_p.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/macro.hpp:31[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/api.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/url.hpp:13[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/messaging/url.cpp:5[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1154: CMakeFiles/qi.dir/src/messaging/messagesocket.cpp.o] Error 1
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/log.hpp:23[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/qi/type/typeinterface.hpp:18[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/registration.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/registration.cpp:13[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:70:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Init(SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   70 |     if (![01;35m[KSHA1_Init(&x)[m[K) {
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/registration.cpp:13[m[K:
+[01m[K/usr/include/openssl/sha.h:49:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   49 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Init[m[K(SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/registration.cpp:13[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In lambda function:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:79:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |         [01;35m[KSHA1_Final(sha1_digest_t{{0}}.data(), &x)[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/registration.cpp:13[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/registration.cpp:13[m[K:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:[m[K In function ‘[01m[Kka::sha1_digest_t ka::sha1(I, I)[m[K’:
+[01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:87:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint SHA1_Final(unsigned char*, SHA_CTX*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   87 |     if (![01;35m[KSHA1_Final(d.data(), &x)[m[K) {
+      |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/carl/nao_bot/libqi/ka/sha1.hpp:7[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/type/metaobject_p.hpp:16[m[K,
+                 from [01m[K/home/carl/nao_bot/libqi/src/registration.cpp:13[m[K:
+[01m[K/usr/include/openssl/sha.h:51:27:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KSHA1_Final[m[K(unsigned char *md, SHA_CTX *c);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/qi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

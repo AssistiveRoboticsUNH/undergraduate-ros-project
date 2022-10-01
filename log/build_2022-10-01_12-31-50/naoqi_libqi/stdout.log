@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target qi[0m
+[  1%] [32mBuilding CXX object CMakeFiles/qi.dir/src/application.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/qi.dir/src/log.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/message.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/messagedispatcher.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/objecthost.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/objectregistrar.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/remoteobject.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectory.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectoryclient.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectoryproxy.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/serviceinfo.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/session.cpp.o[0m

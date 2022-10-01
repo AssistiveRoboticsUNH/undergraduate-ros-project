@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target qi[0m
+[  1%] [32mBuilding CXX object CMakeFiles/qi.dir/src/application.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/qi.dir/src/log.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/signalspy.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/signatureconvertor.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/staticobjecttype.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/typeinterface.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/structtypeinterface.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/signature.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/applicationsession_internal.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/traceanalyzer.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/type.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/applicationsession.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/authprovider.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/boundobject.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/clientauthenticator.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/gateway.cpp.o[0m
