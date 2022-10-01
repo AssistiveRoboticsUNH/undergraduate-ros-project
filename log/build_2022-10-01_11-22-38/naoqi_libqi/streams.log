@@ -1,0 +1,25 @@
+[0.111s] Invoking command in '/home/carl/nao_bot/build/naoqi_libqi': /usr/bin/cmake /home/carl/nao_bot/libqi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/carl/nao_bot/install/naoqi_libqi
+[0.158s] [33mCMake Warning at CMakeLists.txt:7 (find_package):
+[0.158s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.158s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.158s]   CMake did not find one.
+[0.158s] 
+[0.158s]   Could not find a package configuration file provided by "catkin" with any
+[0.158s]   of the following names:
+[0.158s] 
+[0.158s]     catkinConfig.cmake
+[0.158s]     catkin-config.cmake
+[0.159s] 
+[0.159s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.159s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.159s]   provides a separate development package or SDK, be sure it has been
+[0.159s]   installed.
+[0.159s] 
+[0.159s] [0m
+[0.163s] [31mCMake Error at CMakeLists.txt:10 (catkin_package):
+[0.163s]   Unknown CMake command "catkin_package".
+[0.163s] 
+[0.163s] [0m
+[0.163s] -- Configuring incomplete, errors occurred!
+[0.163s] See also "/home/carl/nao_bot/build/naoqi_libqi/CMakeFiles/CMakeOutput.log".
+[0.166s] Invoked command in '/home/carl/nao_bot/build/naoqi_libqi' returned '1': /usr/bin/cmake /home/carl/nao_bot/libqi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/carl/nao_bot/install/naoqi_libqi

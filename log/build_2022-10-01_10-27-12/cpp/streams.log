@@ -1,0 +1,2 @@
+[0.014s] Invoking command in '/home/carl/nao_bot/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/cpp -- -j12 -l12
+[0.044s] Invoked command in '/home/carl/nao_bot/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/cpp -- -j12 -l12

@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/carl/nao_bot/build/naoqi_libqi': /usr/bin/cmake /home/carl/nao_bot/libqi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/carl/nao_bot/install/naoqi_libqi
+[0.013s] [0mCMake Deprecation Warning at CMakeLists.txt:5 (cmake_minimum_required):
+[0.013s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.013s]   CMake.
+[0.014s] 
+[0.014s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.014s]   CMake that the project does not need compatibility with older versions.
+[0.014s] 
+[0.014s] [0m
+[0.306s] -- The C compiler identification is GNU 11.2.0
+[0.523s] -- The CXX compiler identification is GNU 11.2.0
+[0.533s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.600s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.600s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.604s] -- Detecting CXX compiler ABI info
+[0.667s] -- Detecting CXX compiler ABI info - done
+[0.675s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.675s] -- Detecting CXX compile features
+[0.675s] -- Detecting CXX compile features - done
+[0.692s] [33mCMake Warning at CMakeLists.txt:7 (find_package):
+[0.692s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.692s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.692s]   CMake did not find one.
+[0.692s] 
+[0.692s]   Could not find a package configuration file provided by "catkin" with any
+[0.693s]   of the following names:
+[0.693s] 
+[0.693s]     catkinConfig.cmake
+[0.693s]     catkin-config.cmake
+[0.693s] 
+[0.693s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.693s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.693s]   provides a separate development package or SDK, be sure it has been
+[0.693s]   installed.
+[0.693s] 
+[0.693s] [0m
+[0.770s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.770s] [31mCMake Error at CMakeLists.txt:10 (catkin_package):
+[0.771s]   Unknown CMake command "catkin_package".
+[0.771s] 
+[0.771s] [0m
+[0.771s] -- Configuring incomplete, errors occurred!
+[0.771s] See also "/home/carl/nao_bot/build/naoqi_libqi/CMakeFiles/CMakeOutput.log".
+[0.773s] Invoked command in '/home/carl/nao_bot/build/naoqi_libqi' returned '1': /usr/bin/cmake /home/carl/nao_bot/libqi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/carl/nao_bot/install/naoqi_libqi

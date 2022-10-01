@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target qi[0m
+[  1%] [32mBuilding CXX object CMakeFiles/qi.dir/src/application.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/qi.dir/src/log.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/jsonencoder.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/metamethod.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/manageable.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/metaproperty.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/metasignal.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/metaobject.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/metasignal_p.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/anymodule.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/objecttypebuilder.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/type/signal.cpp.o[0m

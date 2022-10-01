@@ -1,0 +1,3 @@
+[0.058s] Invoking command in '/home/carl/nao_bot/build/naoqi_libqi': /usr/bin/cmake /home/carl/nao_bot/libqi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/carl/nao_bot/install/naoqi_libqi
+[0.124s] [0mCMake Error: The source "/home/carl/nao_bot/libqi/CMakeLists.txt" does not match the source "/home/carl/nao_bot/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.135s] Invoked command in '/home/carl/nao_bot/build/naoqi_libqi' returned '1': /usr/bin/cmake /home/carl/nao_bot/libqi -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/carl/nao_bot/install/naoqi_libqi

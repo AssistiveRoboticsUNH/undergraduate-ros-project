@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/carl/nao_bot/libqi/CMakeLists.txt" does not match the source "/home/carl/nao_bot/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
