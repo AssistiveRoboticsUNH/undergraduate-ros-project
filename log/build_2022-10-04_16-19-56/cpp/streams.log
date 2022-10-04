@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/carl/nao_bot/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/cpp -- -j12 -l12
+[0.042s] Invoked command in '/home/carl/nao_bot/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/carl/nao_bot/build/cpp -- -j12 -l12
+[0.064s] Invoking command in '/home/carl/nao_bot/build/cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/carl/nao_bot/build/cpp
+[0.069s] -- Install configuration: ""
+[0.069s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/ament_index/resource_index/package_run_dependencies/cpp
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/ament_index/resource_index/parent_prefix_path/cpp
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/environment/path.sh
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/environment/path.dsv
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/local_setup.bash
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/local_setup.sh
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/local_setup.zsh
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/local_setup.dsv
+[0.070s] -- Installing: /home/carl/nao_bot/install/cpp/share/cpp/package.dsv
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/ament_index/resource_index/packages/cpp
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/cmake/cppConfig.cmake
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/cmake/cppConfig-version.cmake
+[0.070s] -- Up-to-date: /home/carl/nao_bot/install/cpp/share/cpp/package.xml
+[0.072s] Invoked command in '/home/carl/nao_bot/build/cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/carl/nao_bot/build/cpp

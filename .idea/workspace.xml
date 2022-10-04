@@ -9,39 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d609d7c8-d2c8-42f5-bb8c-ee6bedcbfff9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="beb199dd-21c9-4fe0-ab08-0ffb5f562147" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/libqi" beforeDir="false" afterPath="$PROJECT_DIR$/libqi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libqi/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/qi/type/detail/staticobjecttype.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/qi/type/detail/staticobjecttype.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/log.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/applicationsession.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/applicationsession.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/applicationsession_internal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/applicationsession_internal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/authprovider.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/authprovider.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/boundobject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/boundobject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/clientauthenticator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/clientauthenticator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/gateway.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/gateway.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/message.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/message.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/messagedispatcher.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/messagedispatcher.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/objecthost.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/objecthost.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/objectregistrar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/objectregistrar.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/remoteobject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/remoteobject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/server.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/servicedirectory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/servicedirectory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/servicedirectoryclient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/servicedirectoryclient.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/servicedirectoryproxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/servicedirectoryproxy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/serviceinfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/serviceinfo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/session.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/session.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/sessionservice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/sessionservice.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/sessionservices.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/sessionservices.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/messaging/streamcontext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/messaging/streamcontext.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/type/signalspy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/type/signalspy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/type/signature.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/type/signature.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/type/structtypeinterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/type/structtypeinterface.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/type/traceanalyzer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/type/traceanalyzer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/type/type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/type/type.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libqi/src/type/typeinterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libqi/src/type/typeinterface.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/latest_build" beforeDir="false" afterPath="$PROJECT_DIR$/log/latest_build" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
