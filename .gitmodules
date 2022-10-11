@@ -1,6 +1,7 @@
 [submodule "libqi"]
 	path = libqi
-	url = https://github.com/kjs26/libqi.git
+	url = https://github.com/ros-naoqi/libqi.git
+	branch = v2.5.0-humble
 [submodule "naoqi_driver2"]
 	path = naoqi_driver2
 	url = https://github.com/kjs26/naoqi_driver2.git
