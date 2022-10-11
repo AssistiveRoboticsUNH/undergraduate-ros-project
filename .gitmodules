@@ -1,3 +1,6 @@
 [submodule "libqi"]
 	path = libqi
 	url = https://github.com/kjs26/libqi.git
+[submodule "naoqi_driver2"]
+	path = naoqi_driver2
+	url = https://github.com/kjs26/naoqi_driver2.git
