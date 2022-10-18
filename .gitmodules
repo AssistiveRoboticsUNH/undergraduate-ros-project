@@ -8,3 +8,9 @@
 [submodule "diagnostics"]
 	path = diagnostics
 	url = https://github.com/ros/diagnostics.git
+[submodule "libqicore"]
+	path = libqicore
+	url = https://github.com/ros-naoqi/libqicore.git
+[submodule "naoqi_bridge_msgs2"]
+	path = naoqi_bridge_msgs2
+	url = https://github.com/ros-naoqi/naoqi_bridge_msgs2.git
