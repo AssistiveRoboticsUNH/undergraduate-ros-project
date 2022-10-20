@@ -4,3 +4,28 @@ repositories:
   #  type: git
   #  url: https://github.com/pac48/Yumi.git
   #  version: ros2
+
+  external/diagnostics:
+    type: git
+    url: https://github.com/ros/diagnostics.git
+    version: galactic
+
+  external/naoqi_bridge_msgs2:
+    type: git
+    url: https://github.com/ros-naoqi/naoqi_bridge_msgs2.git
+    version: main
+
+  external/libqi:
+    type: git
+    url: https://github.com/ros-naoqi/libqi.git
+    version: ros2
+
+  external/libqicore:
+    type: git
+    url: https://github.com/ros-naoqi/libqicore.git
+    version: ros2
+
+  external/naoqi_driver2:
+    type: git
+    url: https://github.com/kjs26/naoqi_driver2.git
+    version: main
