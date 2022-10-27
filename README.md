@@ -26,3 +26,23 @@ Once installed, you can run the following to download all of the dependencies.
 ``` 
 vcs import < external.repos.yaml 
 ``` 
+## Making Docker Image and Running in a Container
+Building the docker image from dir docker and naming it nao with tag latest
+```
+sudo docker build docker -it nao:latest
+```
+
+Uses docker image from above to make a container
+```
+cd docker
+```
+```
+sudo docker compose up
+```
+
+ In a new terminal (or set docker container to run in the background).
+```
+sudo docker exec -it docker-nao_controller-1 bash
+```
+You'll still need to source ROS, but all external packages will already be downloaded.
+
