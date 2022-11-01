@@ -1,5 +1,0 @@
-source;share/naoqi_libqi/local_setup.bash
-source;share/naoqi_libqi/local_setup.dsv
-source;share/naoqi_libqi/local_setup.ps1
-source;share/naoqi_libqi/local_setup.sh
-source;share/naoqi_libqi/local_setup.zsh
