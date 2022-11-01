@@ -27,7 +27,7 @@ private:
     void timer_callback()
     {
         auto message = std_msgs::msg::String();
-        auto now = std::time(0);
+        time_t now;
         auto local_time = localtime(&now);
         auto hour = local_time->tm_hour;
         if(0 <= hour && hour < 12) {
