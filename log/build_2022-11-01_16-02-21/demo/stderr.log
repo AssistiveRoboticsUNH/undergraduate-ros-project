@@ -1,0 +1,8 @@
+[01m[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_once[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_some[m[K’?
+   54 |     rclcpp::[01;31m[Kspin_once[m[K(std::make_shared<TalkPublisher>());
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kspin_some[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

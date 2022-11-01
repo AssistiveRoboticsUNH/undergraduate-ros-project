@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000648] (-) JobUnselected: {'identifier': 'cpp'}
+[0.000681] (demo) JobQueued: {'identifier': 'demo', 'dependencies': OrderedDict()}
+[0.001021] (demo) JobStarted: {'identifier': 'demo'}
+[0.008966] (demo) JobProgress: {'identifier': 'demo', 'progress': 'cmake'}
+[0.009417] (demo) JobProgress: {'identifier': 'demo', 'progress': 'build'}
+[0.010056] (demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carl/docker_nao/undergraduate-ros-project/build/demo', '--', '-j12', '-l12'], 'cwd': '/home/carl/docker_nao/undergraduate-ros-project/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'carl'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/carl'), ('OLDPWD', '/home/carl/docker_nao/undergraduate-ros-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3754'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/carl/docker_nao/undergraduate-ros-project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'carl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/carl/.local/bin:/home/carl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/carl-ROG-G703GXR-G703GXR:@/tmp/.ICE-unix/2117,unix/carl-ROG-G703GXR-G703GXR:/tmp/.ICE-unix/2117'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de43828b_6895_418a_863e_e310a120b8ad'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GSP9U1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carl/docker_nao/undergraduate-ros-project/build/demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble')]), 'shell': False}
+[0.032967] (demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100008] (-) TimerEvent: {}
+[0.140274] (demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.167867] (demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.170044] (demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.175292] (demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.185042] (demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199032] (demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200072] (-) TimerEvent: {}
+[0.251572] (demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.252719] (demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300159] (-) TimerEvent: {}
+[0.354487] (demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400236] (-) TimerEvent: {}
+[0.494214] (demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500335] (-) TimerEvent: {}
+[0.548624] (demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.548834] (demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.548904] (demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.549908] (demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.552182] (demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.552270] (demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.552654] (demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.553253] (demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.562735] (demo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.564085] (demo) StdoutLine: {'line': b'-- Build files have been written to: /home/carl/docker_nao/undergraduate-ros-project/build/demo\n'}
+[0.582599] (demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo\x1b[0m\n'}
+[0.589674] (demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.597619] (demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o\x1b[0m\n'}
+[0.600407] (-) TimerEvent: {}
+[0.700592] (-) TimerEvent: {}
+[0.800850] (-) TimerEvent: {}
+[0.901133] (-) TimerEvent: {}
+[1.001386] (-) TimerEvent: {}
+[1.101669] (-) TimerEvent: {}
+[1.201889] (-) TimerEvent: {}
+[1.302144] (-) TimerEvent: {}
+[1.402446] (-) TimerEvent: {}
+[1.502750] (-) TimerEvent: {}
+[1.603003] (-) TimerEvent: {}
+[1.703267] (-) TimerEvent: {}
+[1.803542] (-) TimerEvent: {}
+[1.903764] (-) TimerEvent: {}
+[2.004005] (-) TimerEvent: {}
+[2.104226] (-) TimerEvent: {}
+[2.204450] (-) TimerEvent: {}
+[2.304697] (-) TimerEvent: {}
+[2.404959] (-) TimerEvent: {}
+[2.500072] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.500268] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:53:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspin_node_once\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.500375] (demo) StderrLine: {'line': b'   53 |     rclcpp::\x1b[01;31m\x1b[Kspin_node_once\x1b[m\x1b[K(std::make_shared<TalkPublisher>());\n'}
+[2.500437] (demo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505039] (-) TimerEvent: {}
+[2.605254] (-) TimerEvent: {}
+[2.705473] (-) TimerEvent: {}
+[2.805693] (-) TimerEvent: {}
+[2.905916] (-) TimerEvent: {}
+[3.006135] (-) TimerEvent: {}
+[3.106358] (-) TimerEvent: {}
+[3.136408] (demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo.dir/build.make:76: CMakeFiles/demo.dir/src/demo.cpp.o] Error 1\n'}
+[3.136615] (demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo.dir/all] Error 2\n'}
+[3.136731] (demo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.206446] (-) TimerEvent: {}
+[3.306657] (-) TimerEvent: {}
+[3.406922] (-) TimerEvent: {}
+[3.507138] (-) TimerEvent: {}
+[3.607365] (-) TimerEvent: {}
+[3.707693] (-) TimerEvent: {}
+[3.807909] (-) TimerEvent: {}
+[3.908142] (-) TimerEvent: {}
+[4.008418] (-) TimerEvent: {}
+[4.108633] (-) TimerEvent: {}
+[4.208887] (-) TimerEvent: {}
+[4.309103] (-) TimerEvent: {}
+[4.409387] (-) TimerEvent: {}
+[4.509655] (-) TimerEvent: {}
+[4.609933] (-) TimerEvent: {}
+[4.710158] (-) TimerEvent: {}
+[4.810379] (-) TimerEvent: {}
+[4.910634] (-) TimerEvent: {}
+[5.010844] (-) TimerEvent: {}
+[5.111089] (-) TimerEvent: {}
+[5.211324] (-) TimerEvent: {}
+[5.311540] (-) TimerEvent: {}
+[5.411751] (-) TimerEvent: {}
+[5.511959] (-) TimerEvent: {}
+[5.612166] (-) TimerEvent: {}
+[5.712375] (-) TimerEvent: {}
+[5.812583] (-) TimerEvent: {}
+[5.912881] (-) TimerEvent: {}
+[6.013091] (-) TimerEvent: {}
+[6.113298] (-) TimerEvent: {}
+[6.213506] (-) TimerEvent: {}
+[6.313711] (-) TimerEvent: {}
+[6.413918] (-) TimerEvent: {}
+[6.514130] (-) TimerEvent: {}
+[6.614374] (-) TimerEvent: {}
+[6.714622] (-) TimerEvent: {}
+[6.814873] (-) TimerEvent: {}
+[6.915214] (-) TimerEvent: {}
+[7.015503] (-) TimerEvent: {}
+[7.115716] (-) TimerEvent: {}
+[7.215931] (-) TimerEvent: {}
+[7.239288] (demo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.316127] (-) TimerEvent: {}
+[7.416756] (-) TimerEvent: {}
+[7.517390] (-) TimerEvent: {}
+[7.617710] (-) TimerEvent: {}
+[7.717995] (-) TimerEvent: {}
+[7.802898] (demo) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[7.803790] (demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.805378] (demo) CommandEnded: {'returncode': 2}
+[7.818092] (-) TimerEvent: {}
+[7.837014] (demo) JobEnded: {'identifier': 'demo', 'rc': 2}
+[7.847603] (-) EventReactorShutdown: {}

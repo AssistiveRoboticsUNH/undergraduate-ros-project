@@ -1,0 +1,49 @@
+[0.011s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --build /home/carl/docker_nao/undergraduate-ros-project/build/demo -- -j12 -l12
+[0.029s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.137s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.164s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.166s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.171s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.249s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.251s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.492s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.548s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.549s] -- Configured cppcheck include dirs: 
+[0.549s] -- Configured cppcheck exclude dirs and/or files: 
+[0.550s] -- Added test 'lint_cmake' to check CMake code style
+[0.552s] -- Added test 'uncrustify' to check C / C++ code style
+[0.552s] -- Configured uncrustify additional arguments: 
+[0.552s] -- Added test 'xmllint' to check XML markup files
+[0.553s] -- Configuring done
+[0.562s] -- Generating done
+[0.564s] -- Build files have been written to: /home/carl/docker_nao/undergraduate-ros-project/build/demo
+[0.582s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.589s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/demo.cpp.o[0m
+[0.596s] [ 75%] Built target listener
+[3.920s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.067s] [100%] Built target talker
+[4.075s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --build /home/carl/docker_nao/undergraduate-ros-project/build/demo -- -j12 -l12
+[4.103s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --install /home/carl/docker_nao/undergraduate-ros-project/build/demo
+[4.110s] -- Install configuration: ""
+[4.110s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/talker
+[4.111s] -- Set runtime path of "/home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/talker" to ""
+[4.111s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/listener
+[4.111s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.sh
+[4.112s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.dsv
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.sh
+[4.112s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.dsv
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.bash
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.sh
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.zsh
+[4.112s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.dsv
+[4.112s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.dsv
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/packages/demo
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig.cmake
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig-version.cmake
+[4.112s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.xml
+[4.114s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --install /home/carl/docker_nao/undergraduate-ros-project/build/demo

@@ -1,0 +1,10 @@
+[01m[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:[m[K In member function ‘[01m[Kvoid TalkPublisher::timer_callback()[m[K’:
+[01m[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:42:37:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [10][m[K’ and ‘[01m[Kchar*[m[K’ to binary ‘[01m[Koperator+[m[K’
+   42 |         message.data += [32m[K"Today is "[m[K [01;31m[K+[m[K [34m[Know_str[m[K;
+      |                         [32m[K~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~[m[K
+      |                         [32m[K|[m[K             [34m[K|[m[K
+      |                         [32m[K|[m[K             [34m[Kchar*[m[K
+      |                         [32m[Kconst char [10][m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

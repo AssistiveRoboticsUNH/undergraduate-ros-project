@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --build /home/carl/docker_nao/undergraduate-ros-project/build/demo -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.051s] [ 50%] Built target listener
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/demo.cpp.o[0m
+[3.393s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.539s] [100%] Built target talker
+[3.547s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --build /home/carl/docker_nao/undergraduate-ros-project/build/demo -- -j12 -l12
+[3.573s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --install /home/carl/docker_nao/undergraduate-ros-project/build/demo
+[3.578s] -- Install configuration: ""
+[3.579s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/talker
+[3.580s] -- Set runtime path of "/home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/talker" to ""
+[3.580s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/listener
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.sh
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.dsv
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.sh
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.dsv
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.bash
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.sh
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.zsh
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.dsv
+[3.581s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.dsv
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/packages/demo
+[3.581s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig.cmake
+[3.582s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig-version.cmake
+[3.582s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.xml
+[3.582s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --install /home/carl/docker_nao/undergraduate-ros-project/build/demo

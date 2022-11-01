@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --build /home/carl/docker_nao/undergraduate-ros-project/build/demo -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[0.057s] [ 50%] Built target listener
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[3.804s] [100%] [32m[1mLinking CXX executable demo[0m
+[3.955s] [100%] Built target demo
+[3.963s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --build /home/carl/docker_nao/undergraduate-ros-project/build/demo -- -j12 -l12
+[3.989s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --install /home/carl/docker_nao/undergraduate-ros-project/build/demo
+[3.995s] -- Install configuration: ""
+[3.995s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/demo
+[3.996s] -- Set runtime path of "/home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/demo" to ""
+[3.996s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/listener
+[3.999s] -- Set runtime path of "/home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/listener" to ""
+[3.999s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.sh
+[4.000s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.dsv
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.sh
+[4.000s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.dsv
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.bash
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.sh
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.zsh
+[4.000s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.dsv
+[4.000s] -- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.dsv
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/packages/demo
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig.cmake
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig-version.cmake
+[4.000s] -- Up-to-date: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.xml
+[4.003s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo:/home/carl/docker_nao/undergraduate-ros-project/install/cpp:/opt/ros/humble /usr/bin/cmake --install /home/carl/docker_nao/undergraduate-ros-project/build/demo

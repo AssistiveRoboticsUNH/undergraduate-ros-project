@@ -1,0 +1,44 @@
+[1.193s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/src/py_demo': PYTHONPATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_demo build --build-base /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build install --prefix /home/carl/docker_nao/undergraduate-ros-project/install/py_demo --record /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/install.log --single-version-externally-managed
+[1.377s] running egg_info
+[1.377s] creating ../../build/py_demo/py_demo.egg-info
+[1.377s] writing ../../build/py_demo/py_demo.egg-info/PKG-INFO
+[1.378s] writing dependency_links to ../../build/py_demo/py_demo.egg-info/dependency_links.txt
+[1.378s] writing entry points to ../../build/py_demo/py_demo.egg-info/entry_points.txt
+[1.378s] writing requirements to ../../build/py_demo/py_demo.egg-info/requires.txt
+[1.378s] writing top-level names to ../../build/py_demo/py_demo.egg-info/top_level.txt
+[1.378s] writing manifest file '../../build/py_demo/py_demo.egg-info/SOURCES.txt'
+[1.379s] reading manifest file '../../build/py_demo/py_demo.egg-info/SOURCES.txt'
+[1.379s] writing manifest file '../../build/py_demo/py_demo.egg-info/SOURCES.txt'
+[1.380s] running build
+[1.380s] running build_py
+[1.380s] creating /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build
+[1.380s] creating /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build/lib
+[1.380s] creating /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build/lib/py_demo
+[1.380s] copying py_demo/__init__.py -> /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build/lib/py_demo
+[1.380s] copying py_demo/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build/lib/py_demo
+[1.380s] running install
+[1.381s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.381s]   warnings.warn(
+[1.381s] running install_lib
+[1.382s] creating /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages/py_demo
+[1.382s] copying /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build/lib/py_demo/__init__.py -> /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages/py_demo
+[1.382s] copying /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build/lib/py_demo/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages/py_demo
+[1.382s] byte-compiling /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages/py_demo/__init__.py to __init__.cpython-310.pyc
+[1.383s] byte-compiling /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages/py_demo/demo.py to demo.cpython-310.pyc
+[1.383s]   File "/home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages/py_demo/demo.py", line 11
+[1.383s]     except Exception, e:
+[1.383s]            ^^^^^^^^^^^^
+[1.383s] SyntaxError: multiple exception types must be parenthesized
+[1.383s] 
+[1.383s] running install_data
+[1.383s] creating /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/share/ament_index
+[1.383s] creating /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/share/ament_index/resource_index
+[1.383s] creating /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/share/ament_index/resource_index/packages
+[1.383s] copying resource/py_demo -> /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/share/ament_index/resource_index/packages
+[1.383s] copying package.xml -> /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/share/py_demo
+[1.383s] running install_egg_info
+[1.384s] Copying ../../build/py_demo/py_demo.egg-info to /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages/py_demo-0.0.0-py3.10.egg-info
+[1.385s] running install_scripts
+[1.401s] Installing demo script to /home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/py_demo
+[1.401s] writing list of installed files to '/home/carl/docker_nao/undergraduate-ros-project/build/py_demo/install.log'
+[1.418s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/src/py_demo' returned '0': PYTHONPATH=/home/carl/docker_nao/undergraduate-ros-project/install/py_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_demo build --build-base /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/build install --prefix /home/carl/docker_nao/undergraduate-ros-project/install/py_demo --record /home/carl/docker_nao/undergraduate-ros-project/build/py_demo/install.log --single-version-externally-managed
