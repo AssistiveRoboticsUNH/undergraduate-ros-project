@@ -45,4 +45,5 @@ sudo docker compose up
 sudo docker exec -it docker-nao_controller-1 bash
 ```
 You'll still need to source ROS, but all external packages will already be downloaded.
+Make sure to source again after building in the newly built install folder
 
