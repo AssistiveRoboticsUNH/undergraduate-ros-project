@@ -18,7 +18,7 @@ public:
     TalkPublisher()
             : Node("talk_publisher")
     {
-        publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+        publisher_ = this->create_publisher<std_msgs::msg::String>("speech", 10);
         timer_ = this->create_wall_timer(
                 500ms, std::bind(&TalkPublisher::timer_callback, this));
     }
