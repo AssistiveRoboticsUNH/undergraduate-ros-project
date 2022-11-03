@@ -8,10 +8,10 @@ class TalkerNode(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, 'speech', 10)
+        self.publisher_ = self.create_publisher(String, '/speech', 10)
         self.subscription = self.create_subscription(
             String,
-            'audio',
+            '/audio',
             self.listener_callback,
             10)
 
