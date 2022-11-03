@@ -13,14 +13,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-
-add_executable(talker src/publisher_talking_function.cpp)
-ament_target_dependencies(talker rclcpp std_msgs)
-
-install(TARGETS
-        talker
-        DESTINATION lib/${PROJECT_NAME})
-
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
