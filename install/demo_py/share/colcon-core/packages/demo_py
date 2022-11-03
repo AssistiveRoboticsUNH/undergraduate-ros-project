@@ -1,1 +1,1 @@
-rclpy:std_msgs
+naoqi_bridge_msgs:rclpy:rosidl_default_runtime:std_msgs
