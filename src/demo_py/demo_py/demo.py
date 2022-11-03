@@ -7,11 +7,11 @@ class Demo(Node):
     def __init__(self):
         super().__init__('demo')
         self.publisher = self.create_publisher(String, 'speech', 10)
-        self.subscriber = self.create_subscription(naoqi_bridge_msgs/msg/HeadTouch, 'head_touch', self.listener_callback, 10)
+        self.subscriber = self.create_subscription(HeadTouch, 'head_touch', self.listener_callback, 10)
         self.subscriber
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard on topic_sub: "%s"' % msg.data)
+        # self.get_logger().info('I heard on topic_sub: "%s"' % msg.data)
         temp = String()
         temp.data = '1'
         self.publisher.publish(temp)
