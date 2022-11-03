@@ -1,0 +1,39 @@
+[0.817s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/src/demo_py': PYTHONPATH=/home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_py build --build-base /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build install --prefix /home/carl/docker_nao/undergraduate-ros-project/install/demo_py --record /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/install.log --single-version-externally-managed
+[0.963s] running egg_info
+[0.964s] creating ../../build/demo_py/demo_py.egg-info
+[0.964s] writing ../../build/demo_py/demo_py.egg-info/PKG-INFO
+[0.964s] writing dependency_links to ../../build/demo_py/demo_py.egg-info/dependency_links.txt
+[0.964s] writing entry points to ../../build/demo_py/demo_py.egg-info/entry_points.txt
+[0.964s] writing requirements to ../../build/demo_py/demo_py.egg-info/requires.txt
+[0.964s] writing top-level names to ../../build/demo_py/demo_py.egg-info/top_level.txt
+[0.964s] writing manifest file '../../build/demo_py/demo_py.egg-info/SOURCES.txt'
+[0.966s] reading manifest file '../../build/demo_py/demo_py.egg-info/SOURCES.txt'
+[0.966s] writing manifest file '../../build/demo_py/demo_py.egg-info/SOURCES.txt'
+[0.966s] running build
+[0.967s] running build_py
+[0.967s] creating /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build
+[0.967s] creating /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib
+[0.967s] creating /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py
+[0.967s] copying demo_py/__init__.py -> /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py
+[0.967s] copying demo_py/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py
+[0.967s] running install
+[0.969s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.969s]   warnings.warn(
+[0.969s] running install_lib
+[0.970s] creating /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py
+[0.970s] copying /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py/__init__.py -> /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py
+[0.970s] copying /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py
+[0.971s] byte-compiling /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py/__init__.py to __init__.cpython-310.pyc
+[0.971s] byte-compiling /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py/demo.py to demo.cpython-310.pyc
+[0.971s] running install_data
+[0.971s] creating /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/share/ament_index
+[0.971s] creating /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/share/ament_index/resource_index
+[0.972s] creating /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/share/ament_index/resource_index/packages
+[0.972s] copying resource/demo_py -> /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/share/ament_index/resource_index/packages
+[0.972s] copying package.xml -> /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/share/demo_py
+[0.972s] running install_egg_info
+[0.973s] Copying ../../build/demo_py/demo_py.egg-info to /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py-0.0.0-py3.10.egg-info
+[0.974s] running install_scripts
+[0.989s] Installing pubsub script to /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/demo_py
+[0.989s] writing list of installed files to '/home/carl/docker_nao/undergraduate-ros-project/build/demo_py/install.log'
+[1.005s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/src/demo_py' returned '0': PYTHONPATH=/home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_py build --build-base /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build install --prefix /home/carl/docker_nao/undergraduate-ros-project/install/demo_py --record /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/install.log --single-version-externally-managed

@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/demo.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/talker
+-- Set runtime path of "/home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/talker" to ""
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/listener
+-- Set runtime path of "/home/carl/docker_nao/undergraduate-ros-project/install/demo/lib/demo/listener" to ""
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.sh
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/ament_prefix_path.dsv
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.sh
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/environment/path.dsv
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.bash
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.sh
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.zsh
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/local_setup.dsv
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.dsv
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/ament_index/resource_index/packages/demo
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig.cmake
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/cmake/demoConfig-version.cmake
+-- Installing: /home/carl/docker_nao/undergraduate-ros-project/install/demo/share/demo/package.xml

@@ -1,0 +1,7 @@
+[01m[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:[m[K In member function ‘[01m[Kvoid TalkPublisher::timer_callback()[m[K’:
+[01m[K/home/carl/docker_nao/undergraduate-ros-project/src/demo/src/demo.cpp:30:9:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto now[m[K’ has no initializer
+   30 |         [01;31m[Kauto[m[K now;
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

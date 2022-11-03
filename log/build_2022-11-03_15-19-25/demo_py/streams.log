@@ -1,0 +1,26 @@
+[0.443s] Invoking command in '/home/carl/docker_nao/undergraduate-ros-project/src/demo_py': PYTHONPATH=/home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_py build --build-base /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build install --prefix /home/carl/docker_nao/undergraduate-ros-project/install/demo_py --record /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/install.log --single-version-externally-managed
+[0.624s] running egg_info
+[0.624s] writing ../../build/demo_py/demo_py.egg-info/PKG-INFO
+[0.625s] writing dependency_links to ../../build/demo_py/demo_py.egg-info/dependency_links.txt
+[0.625s] writing entry points to ../../build/demo_py/demo_py.egg-info/entry_points.txt
+[0.625s] writing requirements to ../../build/demo_py/demo_py.egg-info/requires.txt
+[0.625s] writing top-level names to ../../build/demo_py/demo_py.egg-info/top_level.txt
+[0.626s] reading manifest file '../../build/demo_py/demo_py.egg-info/SOURCES.txt'
+[0.627s] writing manifest file '../../build/demo_py/demo_py.egg-info/SOURCES.txt'
+[0.627s] running build
+[0.627s] running build_py
+[0.627s] copying demo_py/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py
+[0.627s] running install
+[0.627s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.628s]   warnings.warn(
+[0.628s] running install_lib
+[0.628s] copying /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py
+[0.629s] byte-compiling /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py/demo.py to demo.cpython-310.pyc
+[0.629s] running install_data
+[0.630s] running install_egg_info
+[0.631s] removing '/home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.631s] Copying ../../build/demo_py/demo_py.egg-info to /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py-0.0.0-py3.10.egg-info
+[0.631s] running install_scripts
+[0.647s] Installing pubsub script to /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/demo_py
+[0.647s] writing list of installed files to '/home/carl/docker_nao/undergraduate-ros-project/build/demo_py/install.log'
+[0.663s] Invoked command in '/home/carl/docker_nao/undergraduate-ros-project/src/demo_py' returned '0': PYTHONPATH=/home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_py build --build-base /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build install --prefix /home/carl/docker_nao/undergraduate-ros-project/install/demo_py --record /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/install.log --single-version-externally-managed

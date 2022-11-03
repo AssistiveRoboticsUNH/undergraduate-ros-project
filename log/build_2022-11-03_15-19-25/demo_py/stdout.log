@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/demo_py/demo_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/demo_py/demo_py.egg-info/dependency_links.txt
+writing entry points to ../../build/demo_py/demo_py.egg-info/entry_points.txt
+writing requirements to ../../build/demo_py/demo_py.egg-info/requires.txt
+writing top-level names to ../../build/demo_py/demo_py.egg-info/top_level.txt
+reading manifest file '../../build/demo_py/demo_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/demo_py/demo_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying demo_py/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py
+running install
+running install_lib
+copying /home/carl/docker_nao/undergraduate-ros-project/build/demo_py/build/lib/demo_py/demo.py -> /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py
+byte-compiling /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py/demo.py to demo.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/demo_py/demo_py.egg-info to /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/python3.10/site-packages/demo_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pubsub script to /home/carl/docker_nao/undergraduate-ros-project/install/demo_py/lib/demo_py
+writing list of installed files to '/home/carl/docker_nao/undergraduate-ros-project/build/demo_py/install.log'
