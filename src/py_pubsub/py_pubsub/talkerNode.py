@@ -9,9 +9,13 @@ class TalkerNode(Node):
     def __init__(self):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(String, '/speech', 10)
-        self.timer_callback()
+        self.subscription = self.create_subscription(
+            String,
+            '/audio',
+            self.listener_callback,
+            10)
 
-    def timer_callback(self):
+    def listener_callback(self):
         msg = String()
         msg.data = 'There\'s always a bigger fish'
         self.publisher_.publish(msg)
