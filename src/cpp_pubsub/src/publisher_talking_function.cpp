@@ -14,7 +14,8 @@ using namespace std::chrono_literals;
 class TalkingPublisher : public rclcpp::Node
 {
 public:
-    MinimalPublisher() : Node("minimal_publisher"), count_(0)
+    TalkingPublisher()
+    : Node("minimal_publisher"), count_(0)
     {
         publisher_ = this->create_publisher<std_msgs::msg::String>("/speech", 10);
         timer_callback();
