@@ -15,11 +15,8 @@ class TalkerNode(Node):
             self.listener_callback,
             10)
 
-    def listener_callback(self):
-        msg = String()
-        msg.data = 'There\'s always a bigger fish'
-        self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+    def listener_callback(self, msg):
+        self.get_logger().info('Info recieved')
 
 
 def main(args=None):
