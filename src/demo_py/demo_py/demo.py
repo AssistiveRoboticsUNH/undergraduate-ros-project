@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
-
+from naoqi_bridge_msgs.msg import HeadTouch
 class Demo(Node):
     def __init__(self):
         super().__init__('demo')
