@@ -11,11 +11,11 @@ class Demo(Node):
         self.subscriber
 
     def listener_callback(self, msg):
-        # self.get_logger().info('I heard on topic_sub: "%s"' % msg.data)
+        # self.get_logger().info('I heard on /head_touch: "%s"' % msg.data)
         temp = String()
         temp.data = 'What?'
         self.publisher.publish(temp)
-        self.get_logger().info('Publishing on topic_pub: "%s"' % temp.data)
+        self.get_logger().info('Publishing on /speech: "%s"' % temp.data)
 
 def main(args=None):
     rclpy.init(args=args)

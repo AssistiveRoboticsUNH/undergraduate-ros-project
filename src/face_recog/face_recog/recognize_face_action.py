@@ -17,25 +17,17 @@ from cv_bridge import CvBridge
 import cv2
 import numpy as np
 
+from std_msgs.msg import String
+
 # recognize_train_timeout = 30
 # recognize_timeout = 2
 save_path = os.path.join(os.path.expanduser('~'), '.smart-home')
 
 
-# camera_topic = '/camera/front/image_raw'
-# voice = 'voice_cmu_us_fem_cg'
-
-
-# voice = 'voice_kal_diphone'
-# voice = 'voice_cmu_us_fem_cg'
-# voice = 'voice_cmu_us_aew_cg'
-
 class RecognizeFaceActionServer(Node):
     def __init__(self):
         super().__init__('recognize_face_action')
-        # self.declare_parameter('camera_topic', '/camera/rgb/image_raw')
-        # self.declare_parameter('camera_topic', 'unity_camera/color/image_raw')
-        self.declare_parameter('camera_topic', 'smart_home/camera/color/image_raw')
+        self.declare_parameter('camera_topic', 'camera/front/image_raw')
         self.declare_parameter('voice', 'voice_cmu_us_fem_cg')
         self.declare_parameter('recognize_train_timeout', 1000)
         self.declare_parameter('recognize_timeout', 1000)
@@ -56,6 +48,7 @@ class RecognizeFaceActionServer(Node):
                                                 self.train_callback, cancel_callback=self.cancel_callback)
         self.recognize_action_server = ActionServer(self, RecognizeRequest, 'recognize_face', self.recognize_callback,
                                                     cancel_callback=self.cancel_callback)
+        self.pub = self.create_publisher(String, 'speech', 10)
 
     def cancel_callback(self, goal_handle):
         self.get_logger().info('Received cancel request')
@@ -97,6 +90,10 @@ class RecognizeFaceActionServer(Node):
                                 match = face_recognition.compare_faces(known_encoding, encoding, tolerance=0.4)
                                 if match[0]:
                                     names.add(name)
+                                    temp = String()
+                                    temp.data = 'I see you'
+                                    self.pub.publish(temp)
+                                    self.get_logger().info('Publishing: "%s"' % temp.data)
 
                     result.names = list(names)
                     if len(result.names) > 0:
