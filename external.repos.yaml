@@ -29,3 +29,8 @@ repositories:
     type: git
     url: https://github.com/kjs26/naoqi_driver2.git
     version: main
+
+  external/smart-home:
+    type: git
+    url: https://github.com/AssistiveRoboticsUNH/smart-home.git
+    version: ros2
