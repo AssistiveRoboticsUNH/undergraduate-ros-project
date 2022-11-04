@@ -47,3 +47,9 @@ sudo docker exec -it docker-nao_controller-1 bash
 You'll still need to source ROS, but all external packages will already be downloaded.
 Make sure to source again after building in the newly built install folder
 
+## Running the Naoqi Driver
+Run the driver with
+```
+ros2 launch naoqi_driver naoqi_driver.launch.py nao_ip:=192.168.1.12 nao_port:=9559 network_interface:=eth0
+```
+
