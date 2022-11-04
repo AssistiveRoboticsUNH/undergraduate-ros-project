@@ -13,7 +13,7 @@ class Demo(Node):
     def listener_callback(self, msg):
         # self.get_logger().info('I heard on topic_sub: "%s"' % msg.data)
         temp = String()
-        temp.data = '1'
+        temp.data = 'What?'
         self.publisher.publish(temp)
         self.get_logger().info('Publishing on topic_pub: "%s"' % temp.data)
 
