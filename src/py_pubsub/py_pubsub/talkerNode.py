@@ -5,6 +5,8 @@ import numpy as np
 import rclpy
 from rclpy.node import Node
 
+from datetime import *
+
 from std_msgs.msg import String
 from naoqi_bridge_msgs.msg import AudioBuffer
 from naoqi_bridge_msgs.msg import HeadTouch
@@ -19,22 +21,25 @@ class TalkerNode(Node):
         self.subscription = self.create_subscription(HeadTouch, '/head_touch', self.head_touch_callback, 10)
         self.data = []
         self.listening = False
+        self.lastTouched = datetime.now()
 
     def head_touch_callback(self, msg):
         self.get_logger().info('Head touched')
+        now = datetime.now()
+        if self.lastTouched + timedelta(seconds=2.5) < now:
+            if self.listening:
+                self.listening = False
+                temp = String()
+                temp.data = 'I am done listening now.'
+                self.publisher.publish(temp)
+                self.interpret()
 
-        if self.listening:
-            self.listening = False
-            temp = String()
-            temp.data = 'I am done listening now.'
-            self.publisher.publish(temp)
-            self.interpret()
-
-        else:
-            self.listening = True
-            temp = String()
-            temp.data = 'I am listening now.'
-            self.publisher.publish(temp)
+            else:
+                self.listening = True
+                temp = String()
+                temp.data = 'I am listening now.'
+                self.publisher.publish(temp)
+        self.lastTouched = now
 
     def listener_callback(self, msg):
 
