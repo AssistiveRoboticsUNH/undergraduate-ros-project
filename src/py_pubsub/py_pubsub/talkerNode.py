@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
-
+from naoqi_bridge_msgs.msg import AudioBuffer
 
 class TalkerNode(Node):
 
@@ -10,7 +10,7 @@ class TalkerNode(Node):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(String, '/speech', 10)
         self.subscription = self.create_subscription(
-            String,
+            AudioBuffer,
             '/audio',
             self.listener_callback,
             10)
