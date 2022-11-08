@@ -14,7 +14,7 @@ class TalkerNode(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, '/speech', 10)
+        self.publisher = self.create_publisher(String, '/speech', 10)
         self.subscription = self.create_subscription(AudioBuffer, '/audio', self.listener_callback, 10)
         self.subscription = self.create_subscription(HeadTouch, '/head_touch', self.head_touch_callback, 10)
         self.data = []
