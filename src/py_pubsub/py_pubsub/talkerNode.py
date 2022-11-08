@@ -50,7 +50,7 @@ class TalkerNode(Node):
             self.data.append(msg.data.tolist())
 
     def interpret(self):
-        # self.get_logger().info(self.data)
+        self.get_logger().info(self.data)
         frequency = 48000
         out_f = 'out.wav'
         nparray = np.array(self.data)
