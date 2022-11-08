@@ -70,7 +70,7 @@ class RecognizeFaceActionServer(Node):
         start_time = time.time()
         result = RecognizeRequest.Result()
         temp = String()
-        temp.data = "I'm looking fpr you"
+        temp.data = "I'm looking for you"
         self.pub.publish(temp)
         self.get_logger().info('Publishing: "%s"' % temp.data)
 
