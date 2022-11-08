@@ -21,7 +21,8 @@ from std_msgs.msg import String
 
 # recognize_train_timeout = 30
 # recognize_timeout = 2
-save_path = os.path.join(os.path.expanduser('~'), '.smart-home')
+os.environ["HOME"] = "/home / nao_ws"
+save_path = os.path.join(os.path.expanduser('~'), 'faces')
 
 
 class RecognizeFaceActionServer(Node):
@@ -69,7 +70,7 @@ class RecognizeFaceActionServer(Node):
         start_time = time.time()
         result = RecognizeRequest.Result()
         temp = String()
-        temp.data = "I'm looking"
+        temp.data = "I'm looking fpr you"
         self.pub.publish(temp)
         self.get_logger().info('Publishing: "%s"' % temp.data)
 
@@ -95,7 +96,7 @@ class RecognizeFaceActionServer(Node):
                                 if match[0]:
                                     names.add(name)
                                     temp = String()
-                                    temp.data = 'I see you'
+                                    temp.data = 'I see you ' + name
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
 
@@ -122,7 +123,7 @@ class RecognizeFaceActionServer(Node):
         feedback_msg = RecognizeTrainRequest.Feedback()
 
         temp = String()
-        temp.data = 'Hi ' + goal_handle.request.name + "I'm training"
+        temp.data = 'Hi ' + goal_handle.request.name + " I'm training"
         self.pub.publish(temp)
         self.get_logger().info('Publishing: "%s"' % temp.data)
 
@@ -224,6 +225,7 @@ class RecognizeFaceActionServer(Node):
 
 
 def main(args=None):
+    print(save_path)
     rclpy.init(args=args)
 
     recognize_face_action_server = RecognizeFaceActionServer()
