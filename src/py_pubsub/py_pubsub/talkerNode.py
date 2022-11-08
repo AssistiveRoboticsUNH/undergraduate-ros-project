@@ -54,8 +54,9 @@ class TalkerNode(Node):
         frequency = 48000
         out_f = 'out.wav'
         nparray = np.array(self.data)
+        scaled = np.int16(nparray / np.max(np.abs(nparray)) * 32767)
         # self.get_logger().info(nparray)
-        wavf.write(out_f, frequency, nparray.astype(np.int16))
+        wavf.write(out_f, frequency, scaled)
 
 
 def main(args=None):
