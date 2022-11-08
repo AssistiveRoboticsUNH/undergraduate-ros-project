@@ -55,7 +55,6 @@ class TalkerNode(Node):
         out_f = 'out.wav'
         nparray = np.array(self.data)
         # self.get_logger().info(nparray)
-        wave.open(out_f, mode='wb')
         wavf.write(out_f, frequency, nparray.astype(np.int16))
 
 
