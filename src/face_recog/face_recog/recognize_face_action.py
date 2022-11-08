@@ -21,7 +21,7 @@ from std_msgs.msg import String
 
 # recognize_train_timeout = 30
 # recognize_timeout = 2
-os.environ["HOME"] = "/home / nao_ws"
+os.environ["HOME"] = "/home/nao_ws"
 save_path = os.path.join(os.path.expanduser('~'), 'faces')
 
 
@@ -225,7 +225,6 @@ class RecognizeFaceActionServer(Node):
 
 
 def main(args=None):
-    print(save_path)
     rclpy.init(args=args)
 
     recognize_face_action_server = RecognizeFaceActionServer()
