@@ -44,8 +44,7 @@ class TalkerNode(Node):
     def listener_callback(self, msg):
 
         if self.listening:
-            self.data.append(msg.data)
-            self.get_logger().info('Info:' + msg.data)
+            self.data.append(msg.data.tolist())
 
     def interpret(self):
         # self.get_logger().info(self.data)
