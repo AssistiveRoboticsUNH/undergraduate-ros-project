@@ -12,17 +12,15 @@ from naoqi_bridge_msgs.msg import HeadTouch
 
 class TalkerNode(Node):
 
-
     def __init__(self):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(String, '/speech', 10)
         self.subscription = self.create_subscription(AudioBuffer, '/audio', self.listener_callback, 10)
-        self.subscription = self.create_subscription(HeadTouch, '/headtouch', self.headtouch_callback, 10)
+        self.subscription = self.create_subscription(HeadTouch, '/head_touch', self.head_touch_callback, 10)
         self.data = []
         self.listening = False
 
-
-    def headtouch_callback(self, msg):
+    def head_touch_callback(self, msg):
         self.get_logger().info('Head touched')
 
         if self.listening:
@@ -48,6 +46,7 @@ class TalkerNode(Node):
         frequency = 48000
         out_f = 'out.wav'
         wavf.write(out_f, frequency, np.array(self.data))
+
 
 def main(args=None):
     rclpy.init(args=args)
