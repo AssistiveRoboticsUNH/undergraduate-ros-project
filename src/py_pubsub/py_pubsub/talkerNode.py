@@ -26,7 +26,7 @@ class TalkerNode(Node):
     def head_touch_callback(self, msg):
         self.get_logger().info('Head touched')
         now = datetime.now()
-        if self.lastTouched + timedelta(seconds=2.5) < now:
+        if self.lastTouched + timedelta(seconds=1) < now:
             if self.listening:
                 self.listening = False
                 temp = String()
@@ -45,12 +45,15 @@ class TalkerNode(Node):
 
         if self.listening:
             self.data.append(msg.data)
-            self.get_logger().info('Info recieved')
+            self.get_logger().info('Info:' + msg.data)
 
     def interpret(self):
+        # self.get_logger().info(self.data)
         frequency = 48000
         out_f = 'out.wav'
-        wavf.write(out_f, frequency, np.array(self.data))
+        nparray = np.array(self.data)
+        # self.get_logger().info(nparray)
+        wavf.write(out_f, frequency, nparray)
 
 
 def main(args=None):
