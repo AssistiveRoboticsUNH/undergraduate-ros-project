@@ -22,7 +22,7 @@ class TalkerNode(Node):
         self.listening = False
 
 
-    def headgtouch_callback(self, msg):
+    def headtouch_callback(self, msg):
         self.get_logger().info('Head touched')
 
         if self.listening:
@@ -41,7 +41,7 @@ class TalkerNode(Node):
     def listener_callback(self, msg):
 
         if self.listening:
-            self.data.append(msg.data);
+            self.data.append(msg.data)
             self.get_logger().info('Info recieved')
 
     def interpret(self):
