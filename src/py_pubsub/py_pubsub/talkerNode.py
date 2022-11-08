@@ -1,4 +1,7 @@
 from __future__ import print_function
+
+import wave
+
 import scipy.io.wavfile as wavf
 import numpy as np
 
@@ -52,7 +55,8 @@ class TalkerNode(Node):
         out_f = 'out.wav'
         nparray = np.array(self.data)
         # self.get_logger().info(nparray)
-        wavf.write(out_f, frequency, nparray)
+        wave.open(out_f, mode='wb')
+        wavf.write(out_f, frequency, nparray.astype(np.int16))
 
 
 def main(args=None):
