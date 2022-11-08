@@ -68,6 +68,10 @@ class RecognizeFaceActionServer(Node):
         database = self.get_database()
         start_time = time.time()
         result = RecognizeRequest.Result()
+        temp = String()
+        temp.data = "I'm looking"
+        self.pub.publish(temp)
+        self.get_logger().info('Publishing: "%s"' % temp.data)
 
         self.recognize_action = True
         while time.time() - start_time < self.recognize_timeout:
@@ -116,6 +120,11 @@ class RecognizeFaceActionServer(Node):
         start_time = time.time()
         result = RecognizeTrainRequest.Result()
         feedback_msg = RecognizeTrainRequest.Feedback()
+
+        temp = String()
+        temp.data = 'Hi ' + goal_handle.request.name + "I'm training"
+        self.pub.publish(temp)
+        self.get_logger().info('Publishing: "%s"' % temp.data)
 
         self.training_action = True
         center_prompt_given = False
