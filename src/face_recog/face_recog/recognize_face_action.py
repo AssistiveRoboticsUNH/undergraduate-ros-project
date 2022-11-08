@@ -129,7 +129,7 @@ class RecognizeFaceActionServer(Node):
                 return RecognizeTrainRequest.Result()
 
             if self.latest_image.shape[0] > 1:
-                standing_person_face_encoding = self.detect_face(self.latest_image, gui=True)
+                standing_person_face_encoding = self.detect_face(self.latest_image, gui=False)
                 if standing_person_face_encoding is None:
                     consecutive_identified = 0
                 elif len(standing_person_face_encoding) > 1:
