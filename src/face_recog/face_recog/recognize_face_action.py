@@ -94,13 +94,12 @@ class RecognizeFaceActionServer(Node):
                             known_encodings = database[name]
                             for known_encoding in known_encodings:
                                 match = face_recognition.compare_faces(known_encoding, encoding, tolerance=0.4)
-                                if match[0]:
+                                if match[0] and name not in names:
                                     names.add(name)
                                     temp = String()
                                     temp.data = 'Found you ' + name
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
-                                    # time.sleep(10.0)
 
                     result.names = list(names)
                     if len(result.names) > 1:
@@ -111,11 +110,6 @@ class RecognizeFaceActionServer(Node):
             feedback_msg.running = True
             goal_handle.publish_feedback(feedback_msg)
             # rclpy.spin_once(self)
-
-        # if len(result.names) > 0:
-        #     goal_handle.succeed()
-        #     self.recognize_action = False
-        #     return result
 
         # timeout
         goal_handle.abort()
