@@ -31,7 +31,7 @@ class RecognizeFaceActionServer(Node):
         self.declare_parameter('camera_topic', 'camera/front/image_raw')
         self.declare_parameter('voice', 'voice_cmu_us_fem_cg')
         self.declare_parameter('recognize_train_timeout', 1000)
-        self.declare_parameter('recognize_timeout', 60)
+        self.declare_parameter('recognize_timeout', 30)
 
         self.voice = self.get_parameter('voice').value
         self.camera_topic = self.get_parameter('camera_topic').value
@@ -71,7 +71,8 @@ class RecognizeFaceActionServer(Node):
         result = RecognizeRequest.Result()
 
         temp = String()
-        temp.data = "I'm looking for you"
+        # temp.data = "I'm looking for you"
+        temp.data = 'Hi'
         self.pub.publish(temp)
         self.get_logger().info('Publishing: "%s"' % temp.data)
 
@@ -83,10 +84,10 @@ class RecognizeFaceActionServer(Node):
                 self.recognize_action = False
                 return RecognizeRequest.Result()
 
-            names = set()
             if self.latest_image.shape[0] > 1:
                 standing_person_face_encoding = self.detect_face(self.latest_image)
                 if standing_person_face_encoding is not None:
+                    names = set()
                     for encoding in standing_person_face_encoding:
                         # min_val = np.finfo(float).max
                         # min_name = ""
@@ -94,12 +95,14 @@ class RecognizeFaceActionServer(Node):
                             known_encodings = database[name]
                             for known_encoding in known_encodings:
                                 match = face_recognition.compare_faces(known_encoding, encoding, tolerance=0.4)
-                                if match[0] and name not in names:
+                                if match[0]:
                                     names.add(name)
                                     temp = String()
-                                    temp.data = 'Found you ' + name
+                                    # temp.data = 'Found you ' + name
+                                    temp.data = 'hello'
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
+                                    time.sleep(3)
 
                     result.names = list(names)
                     if len(result.names) > 1:
