@@ -100,22 +100,22 @@ class RecognizeFaceActionServer(Node):
                                     temp.data = 'Found you ' + name
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
-                                    time.sleep(10.0)
+                                    # time.sleep(10.0)
 
                     result.names = list(names)
-                    # if len(result.names) > 0:
-                    #     goal_handle.succeed()
-                    #     self.recognize_action = False
-                    #     return result
+                    if len(result.names) > 1:
+                        goal_handle.succeed()
+                        self.recognize_action = False
+                        return result
 
             feedback_msg.running = True
             goal_handle.publish_feedback(feedback_msg)
             # rclpy.spin_once(self)
 
-        if len(result.names) > 0:
-            goal_handle.succeed()
-            self.recognize_action = False
-            return result
+        # if len(result.names) > 0:
+        #     goal_handle.succeed()
+        #     self.recognize_action = False
+        #     return result
 
         # timeout
         goal_handle.abort()
