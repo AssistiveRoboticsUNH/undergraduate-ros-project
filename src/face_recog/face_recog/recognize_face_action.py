@@ -83,10 +83,10 @@ class RecognizeFaceActionServer(Node):
                 self.recognize_action = False
                 return RecognizeRequest.Result()
 
+            names = set()
             if self.latest_image.shape[0] > 1:
                 standing_person_face_encoding = self.detect_face(self.latest_image)
                 if standing_person_face_encoding is not None:
-                    names = set()
                     for encoding in standing_person_face_encoding:
                         # min_val = np.finfo(float).max
                         # min_name = ""
