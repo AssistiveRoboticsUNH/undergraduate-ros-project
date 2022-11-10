@@ -31,7 +31,7 @@ class RecognizeFaceActionServer(Node):
         self.declare_parameter('camera_topic', 'camera/front/image_raw')
         self.declare_parameter('voice', 'voice_cmu_us_fem_cg')
         self.declare_parameter('recognize_train_timeout', 1000)
-        self.declare_parameter('recognize_timeout', 1000)
+        self.declare_parameter('recognize_timeout', 60)
 
         self.voice = self.get_parameter('voice').value
         self.camera_topic = self.get_parameter('camera_topic').value
@@ -96,19 +96,24 @@ class RecognizeFaceActionServer(Node):
                                 if match[0]:
                                     names.add(name)
                                     temp = String()
-                                    temp.data = 'I see you ' + name
+                                    temp.data = 'Found you ' + name
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
 
                     result.names = list(names)
-                    if len(result.names) > 0:
-                        goal_handle.succeed()
-                        self.recognize_action = False
-                        return result
+                    # if len(result.names) > 0:
+                    #     goal_handle.succeed()
+                    #     self.recognize_action = False
+                    #     return result
 
             feedback_msg.running = True
             goal_handle.publish_feedback(feedback_msg)
             # rclpy.spin_once(self)
+
+        if len(result.names) > 0:
+            goal_handle.succeed()
+            self.recognize_action = False
+            return result
 
         # timeout
         goal_handle.abort()
