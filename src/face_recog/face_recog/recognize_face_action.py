@@ -83,7 +83,7 @@ class RecognizeFaceActionServer(Node):
                 self.recognize_action = False
                 return RecognizeRequest.Result()
 
-            old_encoding = database['Casey']
+            old_encoding = database['Casey'][0]
             if self.latest_image.shape[0] > 1:
                 standing_person_face_encoding = self.detect_face(self.latest_image)
                 if standing_person_face_encoding is not None:
