@@ -31,7 +31,7 @@ class RecognizeFaceActionServer(Node):
         self.declare_parameter('camera_topic', 'camera/front/image_raw')
         self.declare_parameter('voice', 'voice_cmu_us_fem_cg')
         self.declare_parameter('recognize_train_timeout', 1000)
-        self.declare_parameter('recognize_timeout', 10)
+        self.declare_parameter('recognize_timeout', 60)
 
         self.voice = self.get_parameter('voice').value
         self.camera_topic = self.get_parameter('camera_topic').value
@@ -83,7 +83,6 @@ class RecognizeFaceActionServer(Node):
                 self.recognize_action = False
                 return RecognizeRequest.Result()
 
-            old_encoding = database['Casey'][0]
             if self.latest_image.shape[0] > 1:
                 standing_person_face_encoding = self.detect_face(self.latest_image)
                 if standing_person_face_encoding is not None:
@@ -95,13 +94,13 @@ class RecognizeFaceActionServer(Node):
                             known_encodings = database[name]
                             for known_encoding in known_encodings:
                                 match = face_recognition.compare_faces(known_encoding, encoding, tolerance=0.4)
-                                if match[0] and old_encoding != known_encoding:
-                                    old_encoding = known_encoding
+                                if match[0]:
                                     names.add(name)
                                     temp = String()
                                     temp.data = 'Found you ' + name
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
+                                    time.sleep(10.0)
 
                     result.names = list(names)
                     # if len(result.names) > 0:
@@ -115,8 +114,8 @@ class RecognizeFaceActionServer(Node):
 
         if len(result.names) > 0:
             goal_handle.succeed()
-        self.recognize_action = False
-        return result
+            self.recognize_action = False
+            return result
 
         # timeout
         goal_handle.abort()
