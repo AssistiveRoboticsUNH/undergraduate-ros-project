@@ -97,9 +97,11 @@ class RecognizeFaceActionServer(Node):
                                 match = face_recognition.compare_faces(known_encoding, encoding, tolerance=0.4)
                                 if match[0]:
                                     names.add(name)
+                                    path = os.path.join("../descriptions/", 'test.txt')
+                                    f = open(path, 'r')
                                     temp = String()
-                                    # temp.data = 'Found you ' + name
-                                    temp.data = 'hello'
+                                    temp.data = f.read()
+                                    # temp.data = 'hello'
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
                                     time.sleep(3)
