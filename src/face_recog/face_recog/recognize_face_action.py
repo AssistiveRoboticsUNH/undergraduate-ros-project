@@ -18,6 +18,7 @@ import cv2
 import numpy as np
 
 from std_msgs.msg import String
+from geometry_msgs.msg import Twist
 
 # recognize_train_timeout = 30
 # recognize_timeout = 2
@@ -50,6 +51,7 @@ class RecognizeFaceActionServer(Node):
         self.recognize_action_server = ActionServer(self, RecognizeRequest, 'recognize_face', self.recognize_callback,
                                                     cancel_callback=self.cancel_callback)
         self.pub = self.create_publisher(String, 'speech', 10)
+        self.pub_cmdvel = self.create_publisher(Twist, 'cmd_vel', 10)
 
     def cancel_callback(self, goal_handle):
         self.get_logger().info('Received cancel request')
@@ -100,6 +102,17 @@ class RecognizeFaceActionServer(Node):
                                     path = 'src/undergraduate-ros-project/src/face_recog/descriptions'
                                     description = os.path.join(os.path.expanduser('~'), path, name + '.txt')
                                     f = open(description, 'r')
+
+                                    move_cmd = Twist()
+                                    move_cmd.linear.x = 0.0
+                                    move_cmd.linear.y = 0.0
+                                    move_cmd.linear.z = 0.0
+                                    move_cmd.angular.x = 0.0
+                                    move_cmd.angular.y = 0.0
+                                    move_cmd.angular.z = 0.0
+                                    self.pub_cmdvel.publish(move_cmd)
+                                    self.get_logger().info('Making Nao stop')
+
                                     temp = String()
                                     temp.data = f.read()
                                     self.pub.publish(temp)
