@@ -120,7 +120,7 @@ class RecognizeFaceActionServer(Node):
 
                                     temp = String()
                                     temp.data = ""
-                                    self.pub_spin(temp)
+                                    self.pub_spin.publish(temp)
                                     self.get_logger().info('Making Nao spin')
                                     time.sleep(3)
 
