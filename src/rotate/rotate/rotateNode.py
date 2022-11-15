@@ -22,13 +22,11 @@ class RotateNode(Node):
 
     def spin_callback(self, msg):
         now = datetime.now()
-        if self.lastTouched + timedelta(seconds=1) < now:
-            self.first = 1
-            self.lastTouched = now
-            temp = Twist()
-            temp.angular.z = 0.2
-            self.publisher.publish(temp)
+        self.first = 1
         self.lastTouched = now
+        temp = Twist()
+        temp.angular.z = 0.2
+        self.publisher.publish(temp)
 
     def odom_callback(self, msg):
         # self.get_logger().info("odom recieved")
