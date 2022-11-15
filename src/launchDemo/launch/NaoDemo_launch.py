@@ -12,4 +12,9 @@ def generate_launch_description():
             executable='recognize_face_action',
             name='face_recog',
         ),
+        launch_ros.actions.Node(
+            package='demoRunner',
+            executable='demoRunner',
+            name='demoRunner',
+        ),
     ])
