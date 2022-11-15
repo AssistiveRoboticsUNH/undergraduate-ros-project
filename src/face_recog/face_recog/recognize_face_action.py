@@ -52,6 +52,7 @@ class RecognizeFaceActionServer(Node):
                                                     cancel_callback=self.cancel_callback)
         self.pub = self.create_publisher(String, 'speech', 10)
         self.pub_cmdvel = self.create_publisher(Twist, 'cmd_vel', 10)
+        self.pub_spin = self.create_publisher(String, 'spin', 10)
 
     def cancel_callback(self, goal_handle):
         self.get_logger().info('Received cancel request')
@@ -73,10 +74,9 @@ class RecognizeFaceActionServer(Node):
         result = RecognizeRequest.Result()
 
         temp = String()
-        # temp.data = "I'm looking for you"
-        temp.data = 'Hi'
-        self.pub.publish(temp)
-        self.get_logger().info('Publishing: "%s"' % temp.data)
+        temp.data = ""
+        self.pub_spin.publish(temp)
+        self.get_logger('Making Nao spin')
 
         self.recognize_action = True
         while time.time() - start_time < self.recognize_timeout:
@@ -113,10 +113,15 @@ class RecognizeFaceActionServer(Node):
                                     self.pub_cmdvel.publish(move_cmd)
                                     self.get_logger().info('Making Nao stop')
 
+                                    person_info = String()
+                                    person_info.data = f.read()
+                                    self.pub.publish(person_info)
+                                    self.get_logger().info('Saying description for "%s"' % name)
+
                                     temp = String()
-                                    temp.data = f.read()
-                                    self.pub.publish(temp)
-                                    self.get_logger().info('Publishing: "%s"' % temp.data)
+                                    temp.data = ""
+                                    self.pub_spin(temp)
+                                    self.get_logger().info('Making Nao spin')
                                     time.sleep(3)
 
                     for name in names:
