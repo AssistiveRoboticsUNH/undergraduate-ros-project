@@ -1,7 +1,7 @@
 import os
 import time
 
-from share_msgs.action import RotateRequest
+from shr_msgs.action import RotateRequest
 from rclpy.action import ActionServer, ActionClient, CancelResponse
 from rclpy.node import Node
 import rclpy
