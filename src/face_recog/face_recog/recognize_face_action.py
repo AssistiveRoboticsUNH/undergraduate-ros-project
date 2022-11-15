@@ -32,7 +32,7 @@ class RecognizeFaceActionServer(Node):
         self.declare_parameter('camera_topic', 'camera/front/image_raw')
         self.declare_parameter('voice', 'voice_cmu_us_fem_cg')
         self.declare_parameter('recognize_train_timeout', 1000)
-        self.declare_parameter('recognize_timeout', 30)
+        self.declare_parameter('recognize_timeout', 360)
 
         self.voice = self.get_parameter('voice').value
         self.camera_topic = self.get_parameter('camera_topic').value
