@@ -19,7 +19,7 @@ class MinimalClientAsync(Node):
     def send_spin_goal(self):
         goal_msg = RotateRequest.Goal()
         goal_msg.total_time = 20.0
-        goal_msg.angle = math.pi * 2
+        goal_msg.angle = math.pi * 2.5
         self.cli2.wait_for_server()
 
         return self.cli2.send_goal_async(goal_msg)
@@ -35,15 +35,15 @@ class MinimalClientAsync(Node):
 
 def main():
     rclpy.init()
-    time.sleep(10.0)
+    time.sleep(5.0)
 
     action_client = MinimalClientAsync()
 
     future = action_client.send_spin_goal()
-    future1 = action_client.send_recognize_goal()
+    # future1 = action_client.send_recognize_goal()
 
     rclpy.spin_until_future_complete(action_client, future)
-    rclpy.spin_until_future_complete(action_client, future1)
+    # rclpy.spin_until_future_complete(action_client, future1)
 
 
 if __name__ == '__main__':
