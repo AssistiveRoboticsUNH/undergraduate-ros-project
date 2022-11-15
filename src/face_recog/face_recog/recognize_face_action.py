@@ -98,21 +98,16 @@ class RecognizeFaceActionServer(Node):
                                 if match[0]:
                                     names.add(name)
                                     path = 'src/undergraduate-ros-project/src/face_recog/descriptions'
-                                    description = os.path.join(os.path.expanduser('~'), path, 'test.txt')
+                                    description = os.path.join(os.path.expanduser('~'), path, name + '.txt')
                                     f = open(description, 'r')
                                     temp = String()
                                     temp.data = f.read()
-                                    # temp.data = 'hello'
                                     self.pub.publish(temp)
                                     self.get_logger().info('Publishing: "%s"' % temp.data)
                                     time.sleep(3)
 
                     for name in names:
                         result.names.append(name)
-                    # if len(result.names) > 1:
-                    #     goal_handle.succeed()
-                    #     self.recognize_action = False
-                    #     return result
 
             feedback_msg.running = True
             goal_handle.publish_feedback(feedback_msg)
