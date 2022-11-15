@@ -97,8 +97,9 @@ class RecognizeFaceActionServer(Node):
                                 match = face_recognition.compare_faces(known_encoding, encoding, tolerance=0.4)
                                 if match[0]:
                                     names.add(name)
-                                    path = os.path.join("../descriptions/", 'test.txt')
-                                    f = open(path, 'r')
+                                    path = 'src/undergraduate-ros-project/src/face_recog/descriptions'
+                                    description = os.path.join(os.path.expanduser('~'), path, 'test.txt')
+                                    f = open(description, 'r')
                                     temp = String()
                                     temp.data = f.read()
                                     # temp.data = 'hello'
