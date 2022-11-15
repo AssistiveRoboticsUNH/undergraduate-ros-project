@@ -120,9 +120,10 @@ class RecognizeFaceActionServer(Node):
 
                                     temp = String()
                                     temp.data = ""
+
+                                    time.sleep(3)
                                     self.pub_spin.publish(temp)
                                     self.get_logger().info('Making Nao spin')
-                                    time.sleep(3)
 
                     for name in names:
                         result.names.append(name)
