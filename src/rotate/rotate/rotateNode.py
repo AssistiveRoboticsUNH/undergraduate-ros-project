@@ -5,22 +5,22 @@ import math
 from datetime import *
 
 from geometry_msgs.msg import Twist
-from naoqi_bridge_msgs.msg import Bumper
+from std_msgs.msg import String
 from nav_msgs.msg import Odometry
 
 
 class RotateNode(Node):
 
     def __init__(self):
-        super().__init__('minimal_publisher')
+        super().__init__('rotateNode')
         self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
-        self.subscription = self.create_subscription(Bumper, '/bumper', self.bumper_callback, 10)
+        self.subscription = self.create_subscription(String, '/spin', self.spin_callback, 10)
         self.subscription = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
         self.initial_orientation = 0.0
         self.lastTouched = datetime.now()
         self.first = 0
 
-    def bumper_callback(self, msg):
+    def spin_callback(self, msg):
         now = datetime.now()
         if self.lastTouched + timedelta(seconds=1) < now:
             self.first = 1
