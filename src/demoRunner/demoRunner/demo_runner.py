@@ -40,10 +40,10 @@ def main():
     action_client = MinimalClientAsync()
 
     future = action_client.send_spin_goal()
-    # future1 = action_client.send_recognize_goal()
+    future1 = action_client.send_recognize_goal()
 
+    rclpy.spin_until_future_complete(action_client, future1)
     rclpy.spin_until_future_complete(action_client, future)
-    # rclpy.spin_until_future_complete(action_client, future1)
 
 
 if __name__ == '__main__':
