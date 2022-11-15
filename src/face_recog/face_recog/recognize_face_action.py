@@ -76,7 +76,7 @@ class RecognizeFaceActionServer(Node):
         temp = String()
         temp.data = ""
         self.pub_spin.publish(temp)
-        self.get_logger('Making Nao spin')
+        self.get_logger().info('Making Nao spin')
 
         self.recognize_action = True
         while time.time() - start_time < self.recognize_timeout:
