@@ -17,6 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 set(action_files
         action/RecognizeRequest.action
         action/RecognizeTrainRequest.action
+        action/RotateRequest.action
         )
 
 rosidl_generate_interfaces(shr_msgs
