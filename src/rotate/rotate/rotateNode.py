@@ -34,11 +34,13 @@ class RotateNode(Node):
         if self.first == 1:
             self.initial_orientation = current_orientation
             self.get_logger().info("Starting " + str(self.initial_orientation))
+            self.get_logger().info("Starting " + str(self.lastTouched))
             self.first = 0
         else:
             now = datetime.now()
             difference = abs(self.initial_orientation) - abs(current_orientation)
             if abs(difference) < .1 and self.lastTouched + timedelta(seconds=3) < now:
+                self.get_logger().info("Time at stop: " + str(now))
                 self.get_logger().info("Stopping: " + str(current_orientation))
                 temp = Twist()
                 temp.angular.z = 0.0
