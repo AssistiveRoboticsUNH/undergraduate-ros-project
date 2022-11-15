@@ -53,3 +53,9 @@ Run the driver with
 ros2 launch naoqi_driver naoqi_driver.launch.py nao_ip:=192.168.1.12 nao_port:=9559 network_interface:=eth0
 ```
 
+## Run the Nao Demo
+Run the driver with
+```
+ros2 launch launchDemo NaoDemo_launch.py
+```
+
