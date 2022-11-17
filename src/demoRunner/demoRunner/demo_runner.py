@@ -18,7 +18,7 @@ class MinimalClientAsync(Node):
 
     def send_spin_goal(self):
         goal_msg = RotateRequest.Goal()
-        goal_msg.total_time = 20.0
+        goal_msg.total_time = 30.0
         goal_msg.angle = math.pi * 2.5
         self.cli2.wait_for_server()
 
